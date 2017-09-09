@@ -29,13 +29,17 @@ Lesson 6:
     2. Main Project
 
 More advanced topics:
+
 Lesson 7:
+
     Web programming intro
+
 Lesson 8:
-    Data processing
-    Visualizing
-    Pre-processing & Data Manipulation
-    Dashboard
+
+    1. Data processing
+    2. Visualizing
+    3. Pre-processing & Data Manipulation
+    4. Dashboard
 
 
 

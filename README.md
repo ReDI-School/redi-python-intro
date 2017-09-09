@@ -1,5 +1,3 @@
-Suggested Curriculum:
-
 Lesson 1:
     1. What is a program
     2. Python as a calculator
@@ -23,4 +21,15 @@ Lesson 5:
 Lesson 6:
     1. Classes & Objects
     2. Main Project
+
+More advanced topics:
+Lesson 7:
+    Web programming intro
+Lesson 8:
+    Data processing
+    Visualizing
+    Pre-processing & Data Manipulation
+    Dashboard
+
+
 

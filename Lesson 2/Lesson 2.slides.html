@@ -11882,8 +11882,8 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Input-&amp;-Output">Input &amp; Output<a class="anchor-link" href="#Input-&amp;-Output">&#182;</a></h3><ul>
 <li>A lot of programs depend on input from the user, e.g. click of a button or text he types in a searchbar</li>
-<li>Output for now we use <em>print</em> function</li>
-<li>Input we can use <em>input</em> function</li>
+<li>Output:  for now we use <em>print</em> function</li>
+<li>Input:  we can use <em>input</em> function</li>
 <li>Try it out:
 <pre><code>  print('Enter any text')
   user_input = input()
@@ -11900,21 +11900,42 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Data-Types">Data Types<a class="anchor-link" href="#Data-Types">&#182;</a></h3><ul>
+<h3 id="Data-Types-&amp;-Operators---Revisiting">Data Types &amp; Operators - Revisiting<a class="anchor-link" href="#Data-Types-&amp;-Operators---Revisiting">&#182;</a></h3><ul>
+<li><p>Data types:</p>
+<ul>
 <li>int </li>
 <li>float</li>
 <li>string</li>
+<li>bool </li>
 <li><p>...</p>
 
-<pre><code>  var1 = 10
-  var2 = 30
-  var3 = "Hello"
-  var4 = 'Hello'
-  type(var1)</code></pre>
+<pre><code>  i = 10
+  pi = 3.14
+  hello = "Hello"
+  hi = 'Hi'
+  b = True</code></pre>
 </li>
+</ul>
+</li>
+</ul>
+<ul>
 <li><p><em>type</em> function can be used to know what is the type of variable</p>
+
+<pre><code>      type(10)
+      &gt;&gt; &lt;class 'int'&gt;</code></pre>
 </li>
-<li>What is the type of input we take from user?</li>
+<li><p>When to use each type?</p>
+</li>
+<li><p>Operators:</p>
+<ul>
+<li>+, -, *,  /, //, %</li>
+<li>==, &gt;= , &lt;=, !=, &gt;, &lt;</li>
+<li>not, and, or</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><em>Followup on last example:</em> What is the type of input we take from user?</li>
 </ul>
 
 </div>
@@ -11953,7 +11974,7 @@ a.anchor-link {
 </ul>
 <p>Part 2:</p>
 <ul>
-<li>What if we want to the user to tell us whether he wants to calculate area or circumference?</li>
+<li>What if we want the user to tell us whether he wants to calculate area or circumference?</li>
 <li>What else do we need?</li>
 </ul>
 
@@ -11972,7 +11993,7 @@ a.anchor-link {
 
 </div>
 </div>
-</div></section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
@@ -12003,27 +12024,26 @@ else:
 
 </div>
 </div>
-</div></section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="How-to-write-conditions?">How to write conditions?<a class="anchor-link" href="#How-to-write-conditions?">&#182;</a></h4><ul>
-<li><p>What is difference between?</p>
+<li><p>Operators: ==, &gt;= , &lt;=, !=, &gt;, &lt;</p>
 
-<pre><code>  weather = 'Sunny'
-  weather == 'Sunny'</code></pre>
-</li>
-<li><p>More operators: ==, &gt;= , &lt;=, !=, &gt;, &lt;</p>
-
-<pre><code>  num = 10
-  num &gt; 5
+<pre><code>  num &gt; 5
   num &gt;= 10
   num != 10
   num == 10</code></pre>
 </li>
 <li>What is type for these conditions ? </li>
+<li><p>What is difference between?</p>
+
+<pre><code>  weather = 'Sunny'
+  weather == 'Sunny'</code></pre>
+</li>
 </ul>
 
 </div>

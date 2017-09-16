@@ -42,4 +42,13 @@ Lesson 8:
     4. Dashboard
 
 
+Usage:
+
+- We have a folder per Lesson.
+- Each lesson has a notebook ipynb, which we can display as a slide show using command:
+jupyter nbconvert <ipynb file path> --to slides --post serve
+-  Optionally you can add code to python_examples folder per lesson
+
+
+
 

@@ -11860,10 +11860,16 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Lesson-2">Lesson 2<a class="anchor-link" href="#Lesson-2">&#182;</a></h2><ul>
-<li>First step towards interactive programs</li>
+<li>First step towards interactive programs<ul>
 <li>write your first interactive program</li>
-<li>Conditional Operations</li>
+</ul>
+</li>
+<li>Conditional Operations<ul>
 <li>write your first conditional program</li>
+<li>write your second conditional program</li>
+<li>your first tracing example</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -11929,7 +11935,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</aside>
+</aside></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12029,21 +12035,87 @@ else:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Exercise-2---Your-first-conditional-program">Exercise 2 - Your first conditional program<a class="anchor-link" href="#Exercise-2---Your-first-conditional-program">&#182;</a></h3><ul>
-<li>Given a number as input, print the absolute of it</li>
+<li><p>Given two numbers, print out the bigger of the two numbers.</p>
+<ul>
 <li>Examples:<ul>
-<li>n=10  <ul>
-<li>output is same as input, it should be 10</li>
-</ul>
-</li>
-<li>n= -10<ul>
-<li>output should be 10</li>
-</ul>
-</li>
-<li>n=0<ul>
-<li>output is  0</li>
+<li>n=10 m = 5, output = 10</li>
+<li>n= -10 m = 5, output = 5</li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+<p><em>What if we are given three numbers?</em></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="What-if-we-want-to-test-for-more-than-one-condition?">What if we want to test for more than one condition?<a class="anchor-link" href="#What-if-we-want-to-test-for-more-than-one-condition?">&#182;</a></h4>
+<pre><code>if(condition1):
+    # perform operations for condition1
+elif(condition2):
+    # perform operations for condition2 (and condition 1 is false)
+elif(condition3):
+    # perform operations for condition3 (and conditions 1,2 are false)
+........
+
+else:
+    # perform operations when conditions 1, 2 and 3 are false
+
+</code></pre>
+<ul>
+<li>You can have as many <em>elif</em> as you want and optional else part in the end</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-3---Your-second-conditional-program">Exercise 3 - Your second conditional program<a class="anchor-link" href="#Exercise-3---Your-second-conditional-program">&#182;</a></h3><ul>
+<li>Given three numbers, print out the biggest of the three numbers.</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise-4---Your-first-tracing-example">Exercise 4 - Your first tracing example<a class="anchor-link" href="#Exercise-4---Your-first-tracing-example">&#182;</a></h3><ul>
+<li><p>if n=11, What will be printed for each of these two programs and why?</p>
+</li>
+<li><p>Program 1</p>
+
+<pre><code>  if(n &gt; 5):
+      print('Number is more than 5')
+  elif(n &gt; 10):
+      print('Number is more than 10')
+  else:
+      print('Number is less than 5')</code></pre>
+</li>
+</ul>
+<ul>
+<li><p>Program 2</p>
+
+<pre><code>  if(n &gt; 5):
+      print('Number is more than 5')
+  if(n &gt; 10):
+      print('Number is more than 10')
+  else:
+      print('Number is less than 5')  </code></pre>
+</li>
+<li><p>What about for n=7? which program should you use?</p>
 </li>
 </ul>
 

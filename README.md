@@ -32,11 +32,15 @@ More advanced topics:
 
 Lesson 7:
 
+    Libraries
+    APIs 
+    Frameworks
     Web programming intro
 
 Lesson 8:
 
-    1. Data processing
+    1. Python Notebooks
+    2. Data processing
     2. Visualizing
     3. Pre-processing & Data Manipulation
     4. Dashboard

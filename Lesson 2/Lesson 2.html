@@ -1,64 +1,8 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-<title>Lesson 2 slides</title>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<head><meta charset="utf-8" />
+<title>Lesson 2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-<!-- General and theme style sheets -->
-<link rel="stylesheet" href="reveal.js/css/reveal.css">
-<link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
-
-<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-<script>
-if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'reveal.js/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-}
-
-</script>
-
-<!--[if lt IE 9]>
-<script src="reveal.js/lib/js/html5shiv.js"></script>
-<![endif]-->
-
-<!-- Loading the mathjax macro -->
-<!-- Load mathjax -->
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-    <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-            processEscapes: true,
-            processEnvironments: true
-        },
-        // Center justify equations in code and markdown cells. Elsewhere
-        // we use CSS to left justify single line equations in code cells.
-        displayAlign: 'center',
-        "HTML-CSS": {
-            styles: {'.MathJax_Display': {"margin": 0}},
-            linebreaks: { automatic: true }
-        }
-    });
-    </script>
-    <!-- End of mathjax configuration -->
-
-<!-- Get Font-awesome from cdn -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
 
 <style type="text/css">
     /*!
@@ -11774,92 +11718,68 @@ ul.typeahead-list > li > a {
 
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
-.reveal {
-  font-size: 160%;
-  overflow-y: scroll;
+body {
+  overflow: visible;
+  padding: 8px;
 }
-.reveal pre {
-  width: inherit;
-  padding: 0.4em;
-  margin: 0px;
-  font-family: monospace, sans-serif;
-  font-size: 80%;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+div#notebook {
+  overflow: visible;
+  border-top: none;
 }
-.reveal pre code {
-  padding: 0px;
-}
-.reveal section img {
-  border: 0px solid black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-}
-.reveal i {
-  font-style: normal;
-  font-family: FontAwesome;
-  font-size: 2em;
-}
-.reveal .slides {
-  text-align: left;
-}
-.reveal.fade {
-  opacity: 1;
-}
-.reveal .progress {
-  position: static;
-}
-div.input_area {
-  padding: 0.06em;
-}
-div.code_cell {
-  background-color: transparent;
-}
-div.prompt {
-  width: 11ex;
-  padding: 0.4em;
-  margin: 0px;
-  font-family: monospace, sans-serif;
-  font-size: 80%;
-  text-align: right;
-}
-div.output_area pre {
-  font-family: monospace, sans-serif;
-  font-size: 80%;
-}
-div.output_prompt {
-  /* 5px right shift to account for margin in parent container */
-  margin: 5px 5px 0 0;
-}
-div.text_cell.rendered .rendered_html {
-  /* The H1 height seems miscalculated, we are just hidding the scrollbar */
-  overflow-y: hidden;
-}
-a.anchor-link {
-  /* There is still an anchor, we are only hidding it */
-  display: none;
-}
-.rendered_html p {
-  text-align: inherit;
+
+@media print {
+  div.cell {
+    display: block;
+    page-break-inside: avoid;
+  } 
+  div.output_wrapper { 
+    display: block;
+    page-break-inside: avoid; 
+  }
+  div.output { 
+    display: block;
+    page-break-inside: avoid; 
+  }
 }
 </style>
 
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
 <link rel="stylesheet" href="custom.css">
 
-</head>
-
-
+<!-- Loading mathjax macro -->
+<!-- Load mathjax -->
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    <!-- MathJax configuration -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+    <!-- End of mathjax configuration --></head>
 <body>
+  <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
 
-
-<div class="reveal">
-<div class="slides">
-<section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Lesson-2">Lesson 2<a class="anchor-link" href="#Lesson-2">&#182;</a></h2><ul>
+<li>Data Types - In Detail</li>
 <li>First step towards interactive programs<ul>
 <li>write your first interactive program</li>
 </ul>
@@ -11874,27 +11794,7 @@ a.anchor-link {
 
 </div>
 </div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
 </div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Input-&amp;-Output">Input &amp; Output<a class="anchor-link" href="#Input-&amp;-Output">&#182;</a></h3><ul>
-<li>A lot of programs depend on input from the user, e.g. click of a button or text he types in a searchbar</li>
-<li>Output:  for now we use <em>print</em> function</li>
-<li>Input:  we can use <em>input</em> function</li>
-<li>Try it out:
-<pre><code>  print('Enter any text')
-  user_input = input()
-  print("This is the user's input:")
-  print(user_input)</code></pre>
-</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -11907,7 +11807,8 @@ a.anchor-link {
 <li>float</li>
 <li>string</li>
 <li>bool</li>
-<li>lists</li>
+<li>list</li>
+<li>dict</li>
 <li><p>...</p>
 
 <pre><code>  i = 10
@@ -11915,7 +11816,8 @@ a.anchor-link {
   hello = "Hello"
   hi = 'Hi'
   b = True
-  elements = [1,2,3,4,5,10]</code></pre>
+  elements_list = [1,2,3,4,5,10]
+  elements_dict = {'Ahmed':31, 'Malek':19, 'Nazly':29}</code></pre>
 </li>
 </ul>
 </li>
@@ -11928,22 +11830,50 @@ a.anchor-link {
 </li>
 <li><p>When to use each type?</p>
 </li>
-<li><p>Operators:</p>
-<ul>
-<li>+, -, *,  /, //, %</li>
-<li>==, &gt;= , &lt;=, !=, &gt;, &lt;</li>
-<li>not, and, or</li>
 </ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Examples">Examples<a class="anchor-link" href="#Examples">&#182;</a></h3><ul>
+<li>float:
+<pre><code>      2/3
+      2.0/3
+      5.0/3
+      7.0/3</code></pre>
+</li>
+<li>string:
+<pre><code>      "hello"
+      'hi'
+       print("hello \n hi") # other escape characters \t \\ \' \"
+       "my Name is " + " Kareem"
+       "hello"*5</code></pre>
+</li>
+<li>bool 
+<pre><code>      x = False
+      y = True
+      not x
+      x and y
+      x or y
+      5 ==7
+      5 !=7
+      7 &gt; 5</code></pre>
+</li>
+<li>list
+<pre><code>      l = [1,2,3,4,10]
+      print(l[0])
+      m = [1,5] + [6,7]</code></pre>
 </li>
 </ul>
-<ul>
-<li><em>Followup on last example:</em> What is the type of input we take from user?</li>
-</ul>
 
 </div>
 </div>
-</div><aside class="notes">
-
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -11958,7 +11888,6 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</aside></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -11968,7 +11897,33 @@ a.anchor-link {
 
 </div>
 </div>
-</div></section></section><section><section>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Input-&amp;-Output">Input &amp; Output<a class="anchor-link" href="#Input-&amp;-Output">&#182;</a></h3><ul>
+<li>A lot of programs depend on input from the user, e.g. click of a button or text he types in a searchbar</li>
+<li>Output:  for now we use <em>print</em> function</li>
+<li>Input:  we can use <em>input</em> function</li>
+<li><p>Try it out:</p>
+
+<pre><code>  print('Enter your name')
+  user_input = raw_input()
+  print("This is the user's name:")
+  print(user_input)
+
+  print('Enter your age')
+  user_age= input()
+  print("This is the user's age:")
+  print(user_age)</code></pre>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -11992,7 +11947,7 @@ a.anchor-link {
 
 </div>
 </div>
-</div></section></section><section><section>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12005,7 +11960,7 @@ a.anchor-link {
 
 </div>
 </div>
-</div></section></section><section><section>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
@@ -12022,7 +11977,7 @@ a.anchor-link {
 </div>
 </div>
 
-</div></section></section><section><section>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12036,7 +11991,7 @@ else:
 
 </div>
 </div>
-</div></section></section><section><section>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12060,7 +12015,7 @@ else:
 
 </div>
 </div>
-</div></section></section><section><section>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12081,7 +12036,7 @@ else:
 
 </div>
 </div>
-</div></section></section><section><section>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12106,7 +12061,7 @@ else:
 
 </div>
 </div>
-</div></section></section><section><section>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12118,7 +12073,7 @@ else:
 
 </div>
 </div>
-</div></section></section><section><section>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12154,6 +12109,30 @@ else:
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Homework">Homework<a class="anchor-link" href="#Homework">&#182;</a></h3><h4 id="Exercise-5">Exercise 5<a class="anchor-link" href="#Exercise-5">&#182;</a></h4><ul>
+<li>Given the width and height of rectangle, calculate either perimeter or area (ask the user!)</li>
+<li>Hints:<ul>
+<li>perimeter = 2 X (length + width)</li>
+<li>area = length X width</li>
+</ul>
+</li>
+</ul>
+<h4 id="Exercise-6">Exercise 6<a class="anchor-link" href="#Exercise-6">&#182;</a></h4><ul>
+<li>You have 3 lists for different kinds of workshop events: Programming, Art, and Photography. Ask the user about his interest , and show him the corresponding list to his interest. Below are the lists:
+<pre><code>  programming_list = ['Basic Python workshop', 'Basic Java workshop', 'Intermediate Java']
+  art_list = ['Painting workshop', 'Sculpture workshop', 'Fashion design workshop']
+  photo_list = ['Photography 1.0', 'Photography 2.0']</code></pre>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
@@ -12166,63 +12145,12 @@ else:
 </div>
 </div>
 
-</div></section></section>
 </div>
-</div>
-
-<script>
-
-require(
-    {
-      // it makes sense to wait a little bit when you are loading
-      // reveal from a cdn in a slow connection environment
-      waitSeconds: 15
-    },
-    [
-      "reveal.js/lib/js/head.min.js",
-      "reveal.js/js/reveal.js"
-    ],
-
-    function(head, Reveal){
-
-        // Full list of configuration options available here: https://github.com/hakimel/reveal.js#configuration
-        Reveal.initialize({
-            controls: true,
-            progress: true,
-            history: true,
-
-            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-            transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
-
-            // Optional libraries used to extend on reveal.js
-            dependencies: [
-                { src: "reveal.js/lib/js/classList.js",
-                  condition: function() { return !document.body.classList; } },
-                { src: "reveal.js/plugin/notes/notes.js",
-                  async: true,
-                  condition: function() { return !!document.body.classList; } }
-            ]
-        });
-
-        var update = function(event){
-          if(MathJax.Hub.getAllJax(Reveal.getCurrentSlide())){
-            MathJax.Hub.Rerender(Reveal.getCurrentSlide());
-          }
-        };
-
-        Reveal.addEventListener('slidechanged', update);
-
-        var update_scroll = function(event){
-          $(".reveal").scrollTop(0);
-        };
-
-        Reveal.addEventListener('slidechanged', update_scroll);
-
-    }
-);
-</script>
-
+    </div>
+  </div>
 </body>
+
+ 
 
 
 </html>

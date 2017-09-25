@@ -11,8 +11,8 @@ Lesson 2:
     2. Conditional Operations
 Lesson 3:
 
-    1. Iterative programming
-    2. strings and string operations
+    1. strings and string operations
+    2. Iterative programming
 Lesson 4:
 
     2. Using functions

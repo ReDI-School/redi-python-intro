@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Lesson 4</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>proposal_1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11778,246 +11778,17 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-1----Biggest-of-two-numbers---Are-these-programs-equivalent?-Why">Exercise 1  - Biggest of two numbers - Are these programs equivalent? Why<a class="anchor-link" href="#Exercise-1----Biggest-of-two-numbers---Are-these-programs-equivalent?-Why">&#182;</a></h3>
+<h2 id="Project-1---Chatbot">Project 1 - Chatbot<a class="anchor-link" href="#Project-1---Chatbot">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### program 1</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">y</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="k">if</span><span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;x is bigger&#39;</span><span class="p">)</span>
-<span class="k">elif</span> <span class="p">(</span><span class="n">y</span> <span class="o">&lt;</span> <span class="n">x</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;y is bigger&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;equal&#39;</span><span class="p">)</span>
-    
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### program 2</span>
-<span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">y</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">y</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;equal&#39;</span><span class="p">)</span>
-<span class="k">elif</span><span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;x is bigger&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;y is bigger&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## program 3</span>
-<span class="n">diff</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="n">y</span>
-<span class="k">if</span> <span class="p">(</span><span class="n">diff</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;equal&#39;</span><span class="p">)</span>
-<span class="k">elif</span><span class="p">(</span><span class="n">diff</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;x is bigger&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;y is bigger&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-3---Absolute-number">Exercise 3 - Absolute number<a class="anchor-link" href="#Exercise-3---Absolute-number">&#182;</a></h3><p>Write a program that calculates the absolute value of a number</p>
-<p>Example:</p>
-
-<pre><code>- num = 10, output = 10
-- num = -10, output = 10
-
-</code></pre>
-<p>(the absolute of a positive number is just the same number, the absolute of negative number is the positive version of number)</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter a number&#39;</span><span class="p">)</span>
-
-<span class="k">if</span><span class="p">(</span><span class="n">num</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="o">*</span><span class="n">num</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Enter a number10
-10
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">-</span><span class="mi">20000</span><span class="o">*-</span><span class="mi">1</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[10]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>20000</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-4---Repeat-the-text">Exercise 4 - Repeat the text<a class="anchor-link" href="#Exercise-4---Repeat-the-text">&#182;</a></h3><p>write a program which takes as input text and a number n, and prints out the text repeated n times</p>
-<p>Example:</p>
-
-<pre><code>- text = 'hello', n = 3, outputs =&gt; hello hello hello
-- text= 'hi', n = 2, outputs =&gt; hi hi
-</code></pre>
-<p>Hint:
- Check string operations from last lecture</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="s2">&quot;hello&quot;</span> <span class="o">+</span> <span class="s2">&quot; world&quot;</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[11]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;hello world&#39;</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">text</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s1">&#39;Enter text&#39;</span><span class="p">)</span>
-<span class="n">n</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter number&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">text</span> <span class="o">*</span> <span class="n">n</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Enter texthello
-Enter number3
-hellohellohello
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-5---Sum-from-1-to-n">Exercise 5 - Sum from 1 to n<a class="anchor-link" href="#Exercise-5---Sum-from-1-to-n">&#182;</a></h3><p>write a program that takes a number as input and outputs the sum from 1 to this number.</p>
-<p>Example:
-    n= 5, output= 1 + 2 + 3 + 4 + 5 = 15</p>
+<h1 id="Inspiration">Inspiration<a class="anchor-link" href="#Inspiration">&#182;</a></h1><p><img src='images/superman.png'/></p>
+<p>link: <a href="https://chatbotsmagazine.com/25-of-the-best-facebook-bots-to-chat-with-f159bca02dce">https://chatbotsmagazine.com/25-of-the-best-facebook-bots-to-chat-with-f159bca02dce</a></p>
 
 </div>
 </div>
@@ -12027,329 +11798,7 @@ hellohellohello
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Strings-&amp;-Lists----Revisiting">Strings &amp; Lists -  Revisiting<a class="anchor-link" href="#Strings-&amp;-Lists----Revisiting">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">text</span> <span class="o">=</span> <span class="s1">&#39;hello&#39;</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## get first character of string</span>
-<span class="n">text</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## get length of string</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## get last character of string</span>
-<span class="n">text</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">list_numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">list_numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">list_numbers</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">list_numbers</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">text</span> <span class="o">+</span> <span class="s1">&#39;....&#39;</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[28]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;hello....&#39;</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">list_numbers</span> <span class="o">+</span> <span class="p">[</span><span class="mi">11</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">13</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[29]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[1, 2, 3, 4, 10, 11, 12, 13]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">substring</span> <span class="o">=</span> <span class="s1">&#39;ell&#39;</span>
-<span class="k">if</span><span class="p">(</span><span class="n">substring</span> <span class="ow">in</span> <span class="n">text</span><span class="p">):</span>
-    <span class="k">print</span> <span class="s1">&#39;text contains ell&#39;</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>text contains ell
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">num</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="k">if</span><span class="p">(</span><span class="n">num</span> <span class="ow">in</span> <span class="n">list_numbers</span><span class="p">):</span>
-    <span class="k">print</span> <span class="s1">&#39;list contains 1&#39;</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>list contains 1
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-6---Are-these-3-programs-equivalent-?-Why?">Exercise 6 - Are these 3 programs equivalent ? Why?<a class="anchor-link" href="#Exercise-6---Are-these-3-programs-equivalent-?-Why?">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### Program 1</span>
-<span class="n">text</span> <span class="o">=</span> <span class="s1">&#39;hello&#39;</span>
-
-<span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">text</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">letter</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">## Program 2</span>
-<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span> 
-<span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">text</span><span class="p">[</span><span class="n">count</span><span class="p">])</span>
-    <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span>
-    
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">letters</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;h&#39;</span><span class="p">,</span><span class="s1">&#39;e&#39;</span><span class="p">,</span><span class="s1">&#39;l&#39;</span><span class="p">,</span><span class="s1">&#39;l&#39;</span><span class="p">,</span><span class="s1">&#39;o&#39;</span><span class="p">]</span>
-<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="k">while</span> <span class="n">count</span> <span class="o">&lt;=</span> <span class="nb">len</span><span class="p">(</span><span class="n">letters</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">letters</span><span class="p">[</span><span class="n">count</span><span class="p">])</span>
-    <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-7---Occurrences-of-a-letter-in-text">Exercise 7 - Occurrences of a letter in text<a class="anchor-link" href="#Exercise-7---Occurrences-of-a-letter-in-text">&#182;</a></h3><p>Write a program that takes a text from user and a letter, and output the number of occurrences of that letter in the string. <strong>Use while loop and not for loop!</strong></p>
-<p>Hint:</p>
-<ul>
-<li>you can use len() to know the # of characters of the string.</li>
-<li>Example:<ul>
-<li>len('hello') gives as output 5</li>
-</ul>
-</li>
-</ul>
+<h3 id="Phase-1---Echo-Bot">Phase 1 - Echo Bot<a class="anchor-link" href="#Phase-1---Echo-Bot">&#182;</a></h3><p>short description : an annoying bot that repeats everything you say until you say 'I am leaving'</p>
 
 </div>
 </div>
@@ -12359,11 +11808,7 @@ hellohellohello
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-8---Reverse-a-string">Exercise 8 - Reverse a string<a class="anchor-link" href="#Exercise-8---Reverse-a-string">&#182;</a></h3><p>Write a program which takes a text string from user, and prints out the reverse string.</p>
-<p>Example:</p>
-<ul>
-<li>text = 'hello', output = 'olleh'</li>
-</ul>
+<p><img src='images/phase_smaller.png'/></p>
 
 </div>
 </div>
@@ -12373,11 +11818,20 @@ hellohellohello
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-9---number-is-in-list">Exercise 9 - number is in list<a class="anchor-link" href="#Exercise-9---number-is-in-list">&#182;</a></h3><p>Write a program that takes as input a list of numbers and then a number. If the list of numbers contains this number print 'exists' otherwise print 'doesn't exist'.</p>
-<p>Example:</p>
-
-<pre><code>- a = [1,2,3,4], element = 4, output =&gt; exists
-- b = [1,5,3,4], element = 2, output =&gt; doesn't exist</code></pre>
+<h3 id="Phase-2---Zero-IQ-Bot-(German-&amp;-English)">Phase 2 - Zero IQ Bot (German &amp; English)<a class="anchor-link" href="#Phase-2---Zero-IQ-Bot-(German-&amp;-English)">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Given a set of template question-answers. If someone asks a question, bot will respond 
+with corresponding answer, if he types something else, it simply says 
+"Sorry, I don't have an answer to this, try asking another question"
+A user at any point can switch between english and german when user types 'speak english'/
+'speak german'</p>
 
 </div>
 </div>
@@ -12387,7 +11841,18 @@ hellohellohello
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Homework">Homework<a class="anchor-link" href="#Homework">&#182;</a></h1>
+<table>
+<tr> <th> Language </th> <th>Question </th> <th>  Answer</th> </tr>
+<tr> <td> English </td> <td> Hello </td> <td> Hello, I am Zero IQ Bot, what's your name? </td> </tr>
+<tr> <td> English </td> <td> My name is xxx </td> <td> What a nice name xxx, What would you like to ask about?</td> </tr>
+<tr> <td> English</td> <td> Where do I need to register in germany?</td> <td> You need to go to Bürgeramt </td> </tr>
+<tr> <td> English </td> <td> Bye </td> <td> Goodbye, talk to you later </td> </tr>
+<tr> <td> German </td> <td> Hallo </td> <td> Hallo. Mein name ist Null IQ Bot, Wie heißen Sie? </td> </tr>
+<tr> <td> German </td> <td>Ich heiße xxx </td> <td> Hallo xxx, Was möchecten Sie? </td> </tr>
+<tr> <td> German </td> <td> wo kann man sich registrieren?</td> <td> Sie mussen zum Bürgeramt gehen </td> </tr>
+<tr> <td> German </td> <td> Tschüss </td> <td> Auf Wiedersehen </td> </tr>
+
+</table>
 </div>
 </div>
 </div>
@@ -12396,13 +11861,7 @@ hellohellohello
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Exercise-10">Exercise 10<a class="anchor-link" href="#Exercise-10">&#182;</a></h2><p>Write a program that takes from user a number n and prints out the product from 1 till n.</p>
-<p>Example:</p>
-<ul>
-<li>n = 2, output =1*2 = 2</li>
-<li>n = 3, output = 1 * 2 * 3 = 6</li>
-</ul>
-
+<h3 id="Phase-3---Apportunity-Bot">Phase 3 - Apportunity Bot<a class="anchor-link" href="#Phase-3---Apportunity-Bot">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -12411,31 +11870,7 @@ hellohellohello
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-11">Exercise 11<a class="anchor-link" href="#Exercise-11">&#182;</a></h3><p>Write a program that takes from user text as input and outputs how many vowels occur in text. vowels: a, e, i, o, u.</p>
-<p>Example:</p>
-
-<pre><code>- text = 'hello', output = 2
-- text = 'cat', output = 1</code></pre>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-12---Year-by-Year-Balance">Exercise 12 - Year by Year Balance<a class="anchor-link" href="#Exercise-12---Year-by-Year-Balance">&#182;</a></h3><p>You have amount X saved in the bank. Each year your balance in the bank increases by interest rate 2%</p>
-<p>Example:</p>
-
-<pre><code>- if in 2016 you had an amount 100 euros in the bank
-- in 2017, it will be 102
-- in 2018, it will be 104.04
-
-</code></pre>
-<p>Assuming the amount in the bank doesn't change (you do not spend from it or add to it )
-Below is a program that takes as input the amount you have in the bank (e.g. 100) and the interest rate (e.g. 0.2), then print the balance for next 5 years.</p>
-<p>*modify the program so that you take the number of years as input n, and print the balance for each year (from year 1 till year n)</p>
+<p><img src='images/apportunity.png'/></p>
 
 </div>
 </div>
@@ -12445,46 +11880,7 @@ Below is a program that takes as input the amount you have in the bank (e.g. 100
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">balance</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="n">interest</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-
-<span class="n">balance</span> <span class="o">=</span> <span class="n">balance</span> <span class="o">+</span>  <span class="p">(</span><span class="n">balance</span> <span class="o">*</span> <span class="n">interest</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;year 1 balance&#39;</span><span class="p">,</span> <span class="n">balance</span><span class="p">)</span>
-<span class="n">balance</span> <span class="o">=</span> <span class="n">balance</span> <span class="o">+</span>  <span class="p">(</span><span class="n">balance</span> <span class="o">*</span> <span class="n">interest</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;year 2 balance&#39;</span><span class="p">,</span> <span class="n">balance</span><span class="p">)</span>
-<span class="n">balance</span> <span class="o">=</span> <span class="n">balance</span> <span class="o">+</span>  <span class="p">(</span><span class="n">balance</span> <span class="o">*</span> <span class="n">interest</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;year 3 balance&#39;</span><span class="p">,</span> <span class="n">balance</span><span class="p">)</span>
-<span class="n">balance</span> <span class="o">=</span> <span class="n">balance</span> <span class="o">+</span>  <span class="p">(</span><span class="n">balance</span> <span class="o">*</span> <span class="n">interest</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;year 4 balance&#39;</span><span class="p">,</span> <span class="n">balance</span><span class="p">)</span>
-<span class="n">balance</span> <span class="o">=</span> <span class="n">balance</span> <span class="o">+</span>  <span class="p">(</span><span class="n">balance</span> <span class="o">*</span> <span class="n">interest</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s1">&#39;year 5 balance&#39;</span><span class="p">,</span> <span class="n">balance</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-13---Reverse-a-string">Exercise 13 - Reverse a string<a class="anchor-link" href="#Exercise-13---Reverse-a-string">&#182;</a></h3><p>Write a program which takes a text string from user, and prints out the reverse string.</p>
-<p>Example:</p>
-<ul>
-<li>text = 'hello', output = 'olleh'</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
 </div>

@@ -11798,7 +11798,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Phase-1---Echo-Bot">Phase 1 - Echo Bot<a class="anchor-link" href="#Phase-1---Echo-Bot">&#182;</a></h3><p>short description : an annoying bot that repeats everything you say until you say 'I am leaving'</p>
+<h3 id="Phase-1---Echo-Bot---Deadline-16th-Oct--[5-Points]">Phase 1 - Echo Bot - Deadline 16th Oct  [5 Points]<a class="anchor-link" href="#Phase-1---Echo-Bot---Deadline-16th-Oct--[5-Points]">&#182;</a></h3><p>short description : an annoying bot that repeats everything you say until you say 'I am leaving'</p>
 
 </div>
 </div>
@@ -11818,7 +11818,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Phase-2---Zero-IQ-Bot-(German-&amp;-English)">Phase 2 - Zero IQ Bot (German &amp; English)<a class="anchor-link" href="#Phase-2---Zero-IQ-Bot-(German-&amp;-English)">&#182;</a></h3>
+<h3 id="Phase-2---Zero-IQ-Bot--(Bilingual-German-&amp;-English)---Deadline-26-October">Phase 2 - Zero IQ Bot  (Bilingual German &amp; English) - Deadline 26 October<a class="anchor-link" href="#Phase-2---Zero-IQ-Bot--(Bilingual-German-&amp;-English)---Deadline-26-October">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -11827,9 +11827,9 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Given a set of template question-answers. If someone asks a question, bot will respond 
+<p>Given a set of template question-answers. If someone asks a question/ or sends a message , bot will respond 
 with corresponding answer, if he types something else, it simply says 
-"Sorry, I don't have an answer to this, try asking another question"
+"Sorry, I don't have an answer to this, try asking another question" or 'Entschuldigung, versuchen Sie eine andere Frage'
 A user at any point can switch between english and german when user types 'speak english'/
 'speak german'</p>
 
@@ -11842,15 +11842,61 @@ A user at any point can switch between english and german when user types 'speak
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <table>
-<tr> <th> Language </th> <th>Question </th> <th>  Answer</th> </tr>
+<tr> <th> Language </th> <th>Question/user message </th> <th>  Answer</th> </tr>
 <tr> <td> English </td> <td> Hello </td> <td> Hello, I am Zero IQ Bot, what's your name? </td> </tr>
-<tr> <td> English </td> <td> My name is xxx </td> <td> What a nice name xxx, What would you like to ask about?</td> </tr>
+<tr> <td> English </td> <td> xxx </td> <td> What a nice name xxx, What would you like to ask about?</td> </tr>
 <tr> <td> English</td> <td> Where do I need to register in germany?</td> <td> You need to go to Bürgeramt </td> </tr>
+<tr> <td> English</td> <td> Thank You! </td> <td> You're most welcome xxx ! </td> </tr>
 <tr> <td> English </td> <td> Bye </td> <td> Goodbye, talk to you later </td> </tr>
 <tr> <td> German </td> <td> Hallo </td> <td> Hallo. Mein name ist Null IQ Bot, Wie heißen Sie? </td> </tr>
-<tr> <td> German </td> <td>Ich heiße xxx </td> <td> Hallo xxx, Was möchecten Sie? </td> </tr>
+<tr> <td> German </td> <td>xxx </td> <td> Hallo xxx, Was möchecten Sie? </td> </tr>
 <tr> <td> German </td> <td> wo kann man sich registrieren?</td> <td> Sie mussen zum Bürgeramt gehen </td> </tr>
+<tr> <td> German </td> <td> Danke schön</td> <td> Bitte schön xxx </td> </tr>
 <tr> <td> German </td> <td> Tschüss </td> <td> Auf Wiedersehen </td> </tr>
+
+</table>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Grading-Scheme-[15-points]-Deadline-26-October">Grading Scheme [15 points] Deadline 26 October<a class="anchor-link" href="#Grading-Scheme-[15-points]-Deadline-26-October">&#182;</a></h2><ul>
+<li>Whenever the user sends the bot a message, the bot will send corresponding answer [5 Points]</li>
+<li><p>The bot switches succeessfully the language when the user asks the bot to switch language [5 points]</p>
+</li>
+<li><p>The program should not be case sensitive, in other words if the user sends a message 'hello', 'hEllo', 'Hello', or any other variant of capital and small letters, the bot should be able to respond. [1.5 points]</p>
+</li>
+<li><p>Template question-answer should be read from an external file [3.5 points]</p>
+</li>
+</ul>
+<h3 id="Bonus:-[3-points]-Deadline:-30-October">Bonus: [3 points] Deadline: 30 October<a class="anchor-link" href="#Bonus:-[3-points]-Deadline:-30-October">&#182;</a></h3><ul>
+<li>The bot chooses randomly between possible responses randomly instead of just one response [2 points] (you can use the below dictionary) </li>
+<li>Depending on current time, Bot greats the user by 'Good morning'/ 'Good evening'/ 'Good afternoon' [1 point]</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<table>
+<tr> <th> Language </th> <th>Question/user message </th> <th>  Answer 1</th> <th> Other possible answers </th> </tr>
+<tr> <td> English </td> <td> Hello </td> <td> Hello, I am Zero IQ Bot, what's your name? </td> <td> Hi, My name is Zero IQ Bot, how about you? </td></tr>
+<tr> <td> English </td> <td> xxx </td> <td> What a nice name xxx, What would you like to ask about?</td> <td> What a lovely name xxx!, What can i do for you today?</td> </tr>
+<tr> <td> English</td> <td> Where do I need to register in germany?</td> <td> You need to go to Bürgeramt </td> <td> You need to go the Bürgeramt in your district </td> </tr>
+<tr> <td> English</td> <td> Thank You! </td> <td> You're most welcome xxx ! </td> <td> Don't mention it! </td> </tr>
+<tr> <td> English </td> <td> Bye </td> <td> Goodbye, talk to you later </td> <td> Goodbye, and have a nice day </td>  </tr>
+<tr> <td> German </td> <td> Hallo </td> <td> Hallo. Mein name ist Null IQ Bot, Wie heißen Sie? </td> <td> Hallo. Ich heiße Null IQ Bot, und du? </td> </tr>
+<tr> <td> German </td> <td>xxx </td> <td> Hallo xxx, Was möchecten Sie? </td>  <td> Hallo xxx, Was kann ich für Sie tun? </td> </tr>
+<tr> <td> German </td> <td> wo kann man sich registrieren?</td> <td> Sie mussen zum Bürgeramt gehen </td> <td> Sie müssen zum nächsten Bürgeramt gehen </td> </tr>
+<tr> <td> German </td> <td> Danke schön</td> <td> Bitte schön xxx </td> <td> Bitte! </td> </tr>
+<tr> <td> German </td> <td> Tschüss </td> <td> Auf Wiedersehen </td> <td> Tschüssi! </td> </tr>
 
 </table>
 </div>

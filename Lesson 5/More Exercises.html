@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Lesson 5</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>More Exercises</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11778,146 +11778,34 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Lecture-4----Functions">Lecture 4 -  Functions<a class="anchor-link" href="#Lecture-4----Functions">&#182;</a></h2><ul>
-<li>Builtin Functions</li>
-<li>User-defined functions, and why use them?</li>
-<li>Writing your first function</li>
-<li>Variables' Scope  &amp; functions</li>
-<li>Other functions - Python Standard Library </li>
-</ul>
+<h3 id="Exercice-1">Exercice 1<a class="anchor-link" href="#Exercice-1">&#182;</a></h3><p>We have stored in a list the results of different football matches for our favorite team.
+We would like to write a function that calculates the number of points that the team has at the end of all the matches.</p>
+<p>W = WIN =&gt; 3 points
+D = DRAW =&gt; 1 point
+L = LOSS =&gt; 0 points</p>
+<p>man_united_results = ['W', 'D', 'W', 'L', 'W', 'D', 'D', 'D']</p>
+<p>The function should return 13 points</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="What-is-a-function?">What is a function?<a class="anchor-link" href="#What-is-a-function?">&#182;</a></h3>
-<pre><code>    x = input() ##input is a function
-    print('hello world') ## hello world is a function
-    type(x) ## type is a function
-    num = int("1000") ## converts string to integer
-    num = float("7.12") ## converts string to float</code></pre>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Python-documentation">Python documentation<a class="anchor-link" href="#Python-documentation">&#182;</a></h3><ul>
-<li>You can find useful bulitin functions to use</li>
-<li>Builtin  functions for Python 2: <a href="https://docs.python.org/2/library/functions.html">https://docs.python.org/2/library/functions.html</a></li>
-<li>Some programming terminology:<ul>
-<li>When we use a function e.g. type(100), we refer to this as <strong>function call</strong> and we refer to input 100 to be <strong>argument</strong></li>
-<li>a function can have more than one argument</li>
-</ul>
-</li>
-</ul>
-<p><img src='images/builtin_functions.png'/></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">##useful numeric operations</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="o">-</span><span class="mi">15</span><span class="p">)</span>
-<span class="n">y</span> <span class="o">=</span> <span class="nb">pow</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span> <span class="c1">##same as 5**2</span>
-<span class="n">z</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="mf">12.5</span><span class="p">)</span>
-<span class="k">print</span> <span class="s1">&#39;x:&#39;</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="s1">&#39;y:&#39;</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s1">&#39;z:&#39;</span><span class="p">,</span><span class="n">z</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>x: 15 y: 25 z: 13.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">p</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="nb">abs</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Help on built-in function abs in module __builtin__:
-
-abs(...)
-    abs(number) -&gt; number
-    
-    Return the absolute value of the argument.
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### Useful builtin array functions in python</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">calculate_score</span><span class="p">(</span><span class="n">score_list</span><span class="p">):</span>
+    <span class="n">total_score</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">game</span> <span class="ow">in</span> <span class="n">score_list</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">game</span> <span class="o">==</span> <span class="s1">&#39;W&#39;</span><span class="p">:</span>
+            <span class="n">total_score</span> <span class="o">=</span> <span class="n">total_score</span> <span class="o">+</span><span class="mi">3</span>
+        <span class="k">elif</span> <span class="n">game</span> <span class="o">==</span> <span class="s1">&#39;D&#39;</span><span class="p">:</span>
+            <span class="n">total_score</span> <span class="o">=</span> <span class="n">total_score</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">total_score</span>
 
-<span class="n">num_arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
-<span class="n">max_number</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">num_arr</span><span class="p">)</span>
-<span class="n">min_number</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">num_arr</span><span class="p">)</span>
-<span class="n">no_elements</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">num_arr</span><span class="p">)</span>
-<span class="n">total</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">num_arr</span><span class="p">)</span>
-<span class="k">print</span> <span class="s1">&#39;Array</span><span class="se">\&#39;</span><span class="s1">s maximum:&#39;</span><span class="p">,</span> <span class="n">max_number</span><span class="p">,</span> <span class="s1">&#39;, minimum:&#39;</span><span class="p">,</span> <span class="n">min_number</span><span class="p">,</span> <span class="s1">&#39;, sum:&#39;</span><span class="p">,</span><span class="n">total</span><span class="p">,</span> <span class="s1">&#39;, No. of elements:&#39;</span><span class="p">,</span> <span class="n">no_elements</span>
+<span class="n">man_united_results</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;W&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;W&#39;</span><span class="p">,</span> <span class="s1">&#39;L&#39;</span><span class="p">,</span> <span class="s1">&#39;W&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">]</span>
+<span class="n">score</span> <span class="o">=</span> <span class="n">calculate_score</span><span class="p">(</span><span class="n">man_united_results</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;Score for the team is&#39;</span><span class="p">,</span><span class="n">score</span><span class="p">,</span> <span class="s1">&#39;points&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11932,7 +11820,7 @@ abs(...)
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Array&#39;s maximum: 10 , minimum: 2 , sum: 19 , No. of elements: 4
+<pre>(&#39;Score for the team is&#39;, 13, &#39;points&#39;)
 </pre>
 </div>
 </div>
@@ -11946,245 +11834,11 @@ abs(...)
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="What-is-wrong-with-this-code?">What is wrong with this code?<a class="anchor-link" href="#What-is-wrong-with-this-code?">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">radius1</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">radius2</span>  <span class="o">=</span> <span class="mi">5</span>
-<span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14</span>
+<h3 id="Exercise-3">Exercise 3<a class="anchor-link" href="#Exercise-3">&#182;</a></h3><p>Write a function that takes two lists at inputs and returns a list that sums the two input lists (element wise). Assume two input lists are of the same size</p>
+<p>Example:</p>
 
-
-<span class="n">area1</span> <span class="o">=</span> <span class="n">pi</span> <span class="o">*</span> <span class="n">radius1</span> <span class="o">*</span> <span class="n">radius1</span>
-<span class="n">area2</span> <span class="o">=</span> <span class="n">pi</span> <span class="o">*</span> <span class="n">radius2</span> <span class="o">*</span> <span class="n">radius2</span>
-<span class="k">print</span> <span class="s1">&#39;Areas:&#39;</span><span class="p">,</span> <span class="n">area1</span><span class="p">,</span> <span class="n">area2</span> 
-
-<span class="n">circumference1</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pi</span> <span class="o">*</span> <span class="n">radius1</span>
-<span class="n">circumference2</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pi</span> <span class="o">*</span> <span class="n">radius2</span>
-<span class="k">print</span> <span class="s1">&#39;Circumference:&#39;</span><span class="p">,</span> <span class="n">circumference1</span><span class="p">,</span> <span class="n">circumference2</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Areas: 314.0 78.5
-Circumference: 62.8 31.4
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="User-defined-functions">User-defined functions<a class="anchor-link" href="#User-defined-functions">&#182;</a></h3><ul>
-<li>Aside from the builtin functions, you can define your own functions.</li>
-<li><p>Why is that useful?</p>
-<ul>
-<li>More structured code =&gt; better readability</li>
-<li>Reusing programs</li>
-<li>abstraction =&gt; allows you to focus on performing one task at a time</li>
-</ul>
-</li>
-<li><p>Syntax:</p>
-
-<pre><code>  def func_name(argument1, argument2,...):
-      # function operators
-      return output # optional</code></pre>
-</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14</span>
-
-
-<span class="k">def</span> <span class="nf">calculate_area</span><span class="p">(</span><span class="n">radius</span><span class="p">):</span>
-    <span class="n">area</span> <span class="o">=</span> <span class="n">pi</span> <span class="o">*</span> <span class="n">radius</span> <span class="o">*</span> <span class="n">radius</span>
-    <span class="k">return</span> <span class="n">area</span>
-
-
-<span class="n">radius1</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">radius2</span>  <span class="o">=</span> <span class="mi">5</span>
-
-<span class="n">area1</span> <span class="o">=</span> <span class="n">calculate_area</span><span class="p">(</span><span class="n">radius1</span><span class="p">)</span>
-<span class="n">area2</span> <span class="o">=</span>  <span class="n">calculate_area</span><span class="p">(</span><span class="n">radius2</span><span class="p">)</span>
-
-<span class="k">print</span> <span class="s1">&#39;Areas:&#39;</span><span class="p">,</span> <span class="n">area1</span><span class="p">,</span> <span class="n">area2</span> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Areas: 314.0 78.5
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">calculate_area</span><span class="p">(</span><span class="n">radius</span><span class="p">):</span>
-    <span class="sd">&#39;&#39;&#39; number -&gt; number</span>
-<span class="sd">        Return area of circle given the radius as input.</span>
-<span class="sd">    &#39;&#39;&#39;</span>
-    <span class="n">area</span> <span class="o">=</span> <span class="n">pi</span> <span class="o">*</span> <span class="n">radius</span> <span class="o">*</span> <span class="n">radius</span>
-    <span class="k">return</span> <span class="n">area</span>
-
-
-<span class="n">help</span><span class="p">(</span><span class="n">calculate_area</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Help on function calculate_area in module __main__:
-
-calculate_area(radius)
-    number -&gt; number
-    Return area of circle given the radius as input.
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Example-1">Example 1<a class="anchor-link" href="#Example-1">&#182;</a></h3><ul>
-<li>In website movie-fans, each user gives a rating to a movie (0-5 stars). The overall rating of movie is considered to be the average of all the ratings from all users.</li>
-</ul>
-<p>Part 1</p>
-
-<pre><code>- Write a function calculate_rating that calculates the  overall movie rating:
-    Example:
-        &gt;&gt;&gt; inception_ratings = [4,5,3,5,2,5,5,4,3,5]
-        &gt;&gt;&gt; calculate_rating(inception_ratings)
-        &gt;&gt;&gt; 4.1
-</code></pre>
-<p>Part 2</p>
-
-<pre><code>- Write a function get_better_movie that given two movie ratings, returns the movie with best overall rating
-    Example:
-        &gt;&gt;&gt; inception_ratings = [4,5,3,5,2,5,5,4,3,5]
-        &gt;&gt;&gt; departed_ratings = [5,5,5,5,5,3,2,4,5,4]
-        &gt;&gt;&gt; get_better_movie(inception_ratings, departed_ratings)
-        &gt;&gt;&gt; "Second Movie"</code></pre>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">### Part 1</span>
-<span class="k">def</span> <span class="nf">calculate_rating</span><span class="p">(</span><span class="n">movie_ratings</span><span class="p">):</span>
-    <span class="n">overall_rating</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">movie_ratings</span><span class="p">)</span><span class="o">/</span><span class="nb">float</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">movie_ratings</span><span class="p">))</span>
-    <span class="k">return</span> <span class="n">overall_rating</span>
-
-<span class="k">def</span> <span class="nf">get_better_movie</span><span class="p">(</span><span class="n">rating_list1</span><span class="p">,</span> <span class="n">rating_list2</span><span class="p">):</span>
-    <span class="n">overall_rating1</span> <span class="o">=</span> <span class="n">calculate_rating</span><span class="p">(</span><span class="n">rating_list1</span><span class="p">)</span>
-    <span class="n">overall_rating2</span> <span class="o">=</span> <span class="n">calculate_rating</span><span class="p">(</span><span class="n">rating_list2</span><span class="p">)</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">overall_rating1</span> <span class="o">==</span> <span class="n">overall_rating2</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s1">&#39;Both have same overall rating&#39;</span>
-    <span class="k">elif</span> <span class="n">overall_rating1</span> <span class="o">&gt;</span> <span class="n">overall_rating2</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s1">&#39;Movie 1&#39;</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s1">&#39;Movie 2&#39;</span>
-    
-
-<span class="n">inception_ratings</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">calculate_rating</span><span class="p">(</span><span class="n">inception_ratings</span><span class="p">))</span>
-
-<span class="n">departed_ratings</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">get_better_movie</span><span class="p">(</span><span class="n">inception_ratings</span><span class="p">,</span> <span class="n">departed_ratings</span><span class="p">))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>4.1
-Movie 2
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Using-functions-from-another-file:">Using functions from another file:<a class="anchor-link" href="#Using-functions-from-another-file:">&#182;</a></h3><p>&lt;img src ="images/calling_functions2.png"/&gt;</p>
+<pre><code> - List 1: [1,2,3] - List 2 = [5,6,7], output = [6, 8, 10]
+ so it sums 1st element from 1st list  with 1st element and 2nd element with 2nd element, and so on</code></pre>
 
 </div>
 </div>
@@ -12194,101 +11848,10 @@ Movie 2
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Other-functions---Python-Standard-Library">Other functions - Python Standard Library<a class="anchor-link" href="#Other-functions---Python-Standard-Library">&#182;</a></h3><ul>
-<li>More functions are available here: <a href="https://docs.python.org/2/library/index.html">https://docs.python.org/2/library/index.html</a></li>
-<li><p>Functions that are not built in needs to be imported</p>
-</li>
-<li><p>Examples:</p>
-<ul>
-<li>Math functions : <a href="https://docs.python.org/2/library/math.html">https://docs.python.org/2/library/math.html</a></li>
-<li>Web browser : <a href="https://docs.python.org/2/library/webbrowser.html">https://docs.python.org/2/library/webbrowser.html</a></li>
-</ul>
-</li>
-</ul>
+<h3 id="Exercise-4">Exercise 4<a class="anchor-link" href="#Exercise-4">&#182;</a></h3><p>Write a function that takes two lists at inputs and returns a list that zips the two lists together. Assume two input lists are of the same size</p>
+<p>Example:</p>
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
-<span class="n">c</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>2.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">webbrowser</span>
-<span class="n">webbrowser</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;https://www.youtube.com&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[1]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>True</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Variables'-scope-&amp;-functions">Variables' scope &amp; functions<a class="anchor-link" href="#Variables'-scope-&amp;-functions">&#182;</a></h3>
-<pre><code>    def dummy_func():
-        x = 10
-        print("Value inside function:",x)
-    x = 20
-    dummy_func()
-    print("Value outside function:",x)
-
-</code></pre>
-<ul>
-<li>Variables defined in a function are not visible from outside</li>
-</ul>
+<pre><code> - List 1: [1,2,3] - List 2 = [5,6,7], output = [1,5,2,6,3,7]</code></pre>
 
 </div>
 </div>
@@ -12298,25 +11861,6 @@ Movie 2
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Homework">Homework<a class="anchor-link" href="#Homework">&#182;</a></h3><h4 id="Example-1">Example 1<a class="anchor-link" href="#Example-1">&#182;</a></h4><ul>
-<li>In Twitter, users can write tweets up to 140 characters long. While user is writing a tweet , twitter informs him of no. of characters left, when he exceeds the 140, it starts counting in negative.</li>
-<li><p>Write a function remaining_chars(tweet) that prints such a number to user</p>
-</li>
-<li><p>Example</p>
-
-<pre><code>  &gt;&gt;&gt; remaining_chars("Good morning twitter")
-  &gt;&gt;&gt; 120
-  &gt;&gt;&gt; remaining_chars("")
-  &gt;&gt;&gt; 140
-  &gt;&gt;&gt; remaining_chars("I have more respect for a man who lets me know where he stands, even if he's wrong, than the one who comes up like an angel and is nothing but a devil.")
-  &gt;&gt;&gt; -11</code></pre>
-</li>
-<li><p>Hint: function <strong>len</strong> can be used to return no. of characters in a string</p>
-
-<pre><code>  &gt;&gt;&gt; len("hi")
-  &gt;&gt;&gt; 2</code></pre>
-</li>
-</ul>
 
 </div>
 </div>

@@ -13,20 +13,24 @@ Lesson 3:
 
     1. strings and string operations
     2. Iterative programming
+
 Lesson 4:
+    1. Conditional & Iterative Exercises
 
-    2. Using functions
-    3. using python docs & help option
-    3. Mini project 1
 Lesson 5:
+    1. Using Functions
+    2. Writing Functions
+    3. Structuring Files & importing
 
-    1. Writing functions
-    2. Structuring files and importing
-    3. Mini project 2
-Lesson 6:
+Lesson 6: 16 Oct
+    - Nested Lists
 
-    1. Classes & Objects
-    2. Main Project
+Lesson 7: 19 Oct
+    - Reading & Writing to Files
+
+Lesson 8: 22 Oct
+    - More File Exercies
+    - Dictionaries, Sets, Tuples, etc.
 
 More advanced topics:
 

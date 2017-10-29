@@ -22,26 +22,34 @@ Lesson 5:
     2. Writing Functions
     3. Structuring Files & importing
 
-Lesson 6: 16 Oct
+Lesson 6 (16 Oct):
     - Nested Lists
 
-Lesson 7: 19 Oct
+Lesson 7 (19 Oct):
     - Reading & Writing to Files
 
-Lesson 8: 22 Oct
+Lesson 8 (22 Oct):
     - More File Exercies
     - Dictionaries, Sets, Tuples, etc.
 
+Lesson 9 (26 Oct):
+    -  Exercises 
+
+Lesson 10 (30 Oct):
+    1. Using libraries
+    2. Structuring Files & importing
+
+
 More advanced topics:
 
-Lesson 7:
+Lesson X:
 
     Libraries
     APIs 
     Frameworks
     Web programming intro
 
-Lesson 8:
+Lesson XX:
 
     1. Python Notebooks
     2. Data processing

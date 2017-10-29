@@ -15,27 +15,34 @@ Lesson 3:
     2. Iterative programming
 
 Lesson 4:
+
     1. Conditional & Iterative Exercises
 
 Lesson 5:
+
     1. Using Functions
     2. Writing Functions
     3. Structuring Files & importing
 
 Lesson 6 (16 Oct):
+
     - Nested Lists
 
 Lesson 7 (19 Oct):
+
     - Reading & Writing to Files
 
 Lesson 8 (22 Oct):
+
     - More File Exercies
     - Dictionaries, Sets, Tuples, etc.
 
 Lesson 9 (26 Oct):
+
     -  Exercises 
 
 Lesson 10 (30 Oct):
+
     1. Using libraries
     2. Structuring Files & importing
 

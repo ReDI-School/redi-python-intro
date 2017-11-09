@@ -4,8 +4,8 @@ DICT = {}
 
 
 USERNAME = ''
-filename='./dictionary.txt'
-separator = '|'
+FILENAME= './dictionary.txt'
+SEPARATOR = '|'
 CURRENT_LANGUAGE = 'english'
 
 INTRO_WORDS = ['hello', 'hallo']
@@ -14,6 +14,7 @@ LANGUAGES = ['english', 'german']
 
 is_waiting_for_name = False
 is_leaving = False
+
 
 def add_question_to_dict(language, question, answer):
     if language not in DICT:
@@ -27,7 +28,7 @@ def add_question_to_dict(language, question, answer):
 def fill_dict(filename):
     f = open(filename, 'r')
     for line in f:
-        data = line.split(separator)
+        data = line.split(SEPARATOR)
         language = data[0].lower().rstrip()
         question = data[1].lower().rstrip()
         for i in range(2, len(data)):
@@ -42,7 +43,7 @@ def get_answer(question):
         return 'do not understand'
 
 
-fill_dict(filename)
+fill_dict(FILENAME)
 
 while not is_leaving:
     user_input = raw_input('->').lower().rstrip()

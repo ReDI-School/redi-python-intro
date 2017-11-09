@@ -3,10 +3,10 @@ English|NAME|What a nice name {}, What would you like to ask about?|What a lovel
 English|Where do I need to register in germany?|You need to go to Bürgeramt|You need to go the Bürgeramt in your district
 English|Thank You!|You're most welcome {}!|Don't mention it!
 English|Bye|Goodbye, talk to you later|Goodbye, and have a nice day
-English|german|Ok {},lass uns Deutsch sprechen!|Gut, jetzt geht es auf Deutsch weiter
+English|english|Ok, if you prefer English, let us go with it|Switching to English|Sure, {}, lets go on with English
 German|Hallo|Hallo. Mein name ist Null IQ Bot, wie heißen Sie?|Hallo. Ich heiße Null IQ Bot, und du?
 German|NAME|Hallo {}, Was möchecten Sie?|Hallo {}, Was kann ich für Sie tun?
 German|Wo kann man sich registrieren?|Sie mussen zum Bürgeramt gehen|Sie müssen zum nächsten Bürgeramt gehen.
 German|Danke schön|Bitte schön {}|Bitte!
 German|Tschuess|Auf Wiedersehen|Tschüssi!
-German|english|Ok, if you prefer English, let us go with it|Switching to English|Sure, {}, lets go on with English
+German|german|Ok {},lass uns Deutsch sprechen!|Gut, jetzt geht es auf Deutsch weiter

@@ -1,0 +1,35 @@
+English:
+
+  hello:
+    answers:
+      - Hello, I am Zero IQ Bot, what's your name?
+      - Hi, My name is Zero IQ Bot, how about you?
+    action: get_name
+    reactions:
+      - What a nice name {}, What would you like to ask about?
+      - What a lovely name {}! What can i do for you today?
+    parameters: NAME
+
+  where do I need to register in germany?:
+    answers:
+      - You need to go to Bürgeramt.
+      - You need to go the Bürgeramt in your district
+    action: none
+    reactions: none
+    parameters: none
+
+   thank you:
+    answers:
+      - You're most welcome {}!
+      - Don't mention it!
+    action: none
+    reactions: none
+    parameters: NAME
+
+  bye:
+    answers:
+      - Goodbye, talk to you later
+      - Goodbye {}, and have a nice day
+    action: exit
+    reactions: none
+    parameters: NAME

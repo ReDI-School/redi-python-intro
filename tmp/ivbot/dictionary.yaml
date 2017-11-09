@@ -1,4 +1,4 @@
-English:
+english:
 
   hello:
     answers:
@@ -8,28 +8,32 @@ English:
     reactions:
       - What a nice name {}, What would you like to ask about?
       - What a lovely name {}! What can i do for you today?
-    parameters: NAME
 
-  where do I need to register in germany?:
+  where do i need to register in germany?:
     answers:
       - You need to go to Bürgeramt.
       - You need to go the Bürgeramt in your district
-    action: none
-    reactions: none
-    parameters: none
 
-   thank you:
+  thank you:
     answers:
       - You're most welcome {}!
       - Don't mention it!
-    action: none
-    reactions: none
-    parameters: NAME
+
+  what time is it?:
+    action: print_time
+    reactions:
+      - Why do you ask, are you in a hurry?
+      - I am late already...
+
+#  deutsch:
+#    answers:
+#      - Ok {}, lass uns Deutsch reden
+#      - Kein Problem, Deutsch kann ich auch!
+#    action: german
 
   bye:
     answers:
       - Goodbye, talk to you later
       - Goodbye {}, and have a nice day
     action: exit
-    reactions: none
-    parameters: NAME
+

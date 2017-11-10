@@ -14,7 +14,8 @@ class zero_iq_bot:
         self.username = ''
         self.language = language
 
-    def load_dict_from_file(self, filename):
+    @staticmethod
+    def load_dict_from_file(filename):
         with open(filename, 'r') as dictionary_file:
             return yaml.load(dictionary_file)
 
@@ -36,14 +37,16 @@ class zero_iq_bot:
         if 'reactions' in self.bot_dictionary[self.language][question]:
             print(random.choice(self.bot_dictionary[self.language][question]['reactions']).format(self.username))
 
-
     def process_user_input(self, user_input):
-        user_input = user_input.lower().rstrip().translate(None, string.punctuation)
-        print(user_input)
+        user_input = user_input.lower().rstrip()
+        for char in string.punctuation:
+            user_input = user_input.replace(char, "")
+
         for question in self.bot_dictionary[self.language]:
             if (question == user_input or
                ('synonyms' in self.bot_dictionary[self.language][question] and
                  user_input in self.bot_dictionary[self.language][question]['synonyms'])):
+
                 self.answer(question)
                 self.act(question)
                 self.react(question)

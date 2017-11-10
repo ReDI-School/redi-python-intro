@@ -35,9 +35,9 @@ english:
 
   time:
     synonyms:
-      - what time is it?
-      - how late is it?
-      - what time is it now?
+      - what time is it
+      - how late is it
+      - what time is it now
     action: print_time
     reactions:
       - Why do you ask, are you in a hurry?

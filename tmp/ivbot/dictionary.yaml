@@ -1,29 +1,48 @@
 english:
 
   hello:
+    synonyms:
+      - hi
+      - good morning
+      - good afternoon
+      - good eveing
+      - hey
     answers:
       - Hello, I am Zero IQ Bot, what's your name?
       - Hi, My name is Zero IQ Bot, how about you?
     action: get_name
     reactions:
-      - What a nice name {}, What would you like to ask about?
-      - What a lovely name {}! What can i do for you today?
+      - What a nice name{}, What would you like to ask about?
+      - What a lovely name{}! What can i do for you today?
 
-  where do i need to register in germany?:
+  register:
+    synonyms:
+      - where do i need to register in germany
+      - how can i register
+      - what is the registration procedure
     answers:
       - You need to go to Bürgeramt.
       - You need to go the Bürgeramt in your district
 
-  thank you:
+  thanks:
+    synonyms:
+      - thank you
+      - thanks a lot
+      - thank you very much
     answers:
-      - You're most welcome {}!
+      - You're most welcome{}!
       - Don't mention it!
 
-  what time is it?:
+  time:
+    synonyms:
+      - what time is it?
+      - how late is it?
+      - what time is it now?
     action: print_time
     reactions:
       - Why do you ask, are you in a hurry?
       - I am late already...
+      - Time is irrelevant.
 
 #  deutsch:
 #    answers:
@@ -32,8 +51,14 @@ english:
 #    action: german
 
   bye:
+    synonyms:
+      - goodbuy
+      - chiao
+      - exit
+      - quit
     answers:
       - Goodbye, talk to you later
-      - Goodbye {}, and have a nice day
+      - Goodbye{}, and have a nice day
+      - I am sad to see you leaving{}, but I am only a bot and you have your human staff to do.
     action: exit
 

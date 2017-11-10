@@ -3,7 +3,7 @@ import random
 DICT = {}
 
 
-USERNAME = ''
+username = ''
 FILENAME= './dictionary.txt'
 SEPARATOR = '|'
 CURRENT_LANGUAGE = 'english'
@@ -38,7 +38,7 @@ def fill_dict(filename):
 
 def get_answer(question):
     if question in DICT[CURRENT_LANGUAGE]:
-        return random.choice(DICT[CURRENT_LANGUAGE][question]).format(USERNAME)
+        return random.choice(DICT[CURRENT_LANGUAGE][question]).format(username)
     else:
         return 'do not understand'
 
@@ -49,7 +49,7 @@ while not is_leaving:
     user_input = raw_input('->').lower().rstrip()
 
     if is_waiting_for_name:
-        USERNAME = user_input
+        username = user_input
         user_input = 'name'
         is_waiting_for_name = False
     else:

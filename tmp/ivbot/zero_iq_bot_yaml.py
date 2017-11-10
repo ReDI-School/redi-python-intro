@@ -1,53 +1,60 @@
 import yaml
 import random
 import datetime
-
-DICT = {}
-USERNAME = ''
-LANGUAGE = 'english'
+import string
 
 
-def load_dict_from_file(filename):
-    with open(filename, 'r') as dictionary_file:
-        return yaml.load(dictionary_file)
+class zero_iq_bot:
+    bot_dictionary = {}
+    username = ''
+    language = ''
+
+    def __init__(self, dictionary_filename='./dictionary.yaml', language='english'):
+        self.bot_dictionary = self.load_dict_from_file(dictionary_filename)
+        self.username = ''
+        self.language = language
+
+    def load_dict_from_file(self, filename):
+        with open(filename, 'r') as dictionary_file:
+            return yaml.load(dictionary_file)
+
+    def answer(self, question):
+        if 'answers' in self.bot_dictionary[self.language][question]:
+            print(random.choice(self.bot_dictionary[self.language][question]['answers']).format(self.username))
+
+    def act(self, question):
+        if 'action' in self.bot_dictionary[self.language][question]:
+            action = self.bot_dictionary[self.language][question]['action']
+            if action == 'get_name':
+                self.username = ' ' + input()
+            elif action == 'print_time':
+                print(datetime.datetime.now())
+            elif action == 'exit':
+                exit()
+
+    def react(self, question):
+        if 'reactions' in self.bot_dictionary[self.language][question]:
+            print(random.choice(self.bot_dictionary[self.language][question]['reactions']).format(self.username))
 
 
-def action_get_name():
-    global USERNAME
-    USERNAME = input()
+    def process_user_input(self, user_input):
+        user_input = user_input.lower().rstrip().translate(None, string.punctuation)
+        print(user_input)
+        for question in self.bot_dictionary[self.language]:
+            if (question == user_input or
+               ('synonyms' in self.bot_dictionary[self.language][question] and
+                 user_input in self.bot_dictionary[self.language][question]['synonyms'])):
+                self.answer(question)
+                self.act(question)
+                self.react(question)
 
 
-def action_print_time():
-    print(datetime.datetime.now())
+def main():
+    bot = zero_iq_bot()
+    while True:
+        user_input = input('->')
+        bot.process_user_input(user_input)
 
 
-def action_exit():
-    exit()
-
-
-def answer(question):
-    if 'answers' in DICT[LANGUAGE][question]:
-        print(random.choice(DICT[LANGUAGE][question]['answers']).format(USERNAME))
-
-
-def act(question):
-    if 'action' in DICT[LANGUAGE][question]:
-        function = "action_{0}()".format(DICT[LANGUAGE][question]['action'])
-        eval(function)
-
-
-def react(question):
-    if 'reactions' in DICT[LANGUAGE][question]:
-        print(random.choice(DICT[LANGUAGE][question]['reactions']).format(USERNAME))
-
-
-DICT = load_dict_from_file('dictionary.yaml')
-print(DICT)
-while True:
-    user_input = input('->').lower().rstrip()
-    if user_input in DICT[LANGUAGE]:
-        answer(user_input)
-        act(user_input)
-        react(user_input)
-
-
+if __name__ == '__main__':
+    main()

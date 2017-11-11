@@ -1,0 +1,199 @@
+hello:
+  synonyms:
+    english:
+      - hello
+      - hi
+      - good morning
+      - good afternoon
+      - good eveing
+      - hey
+    русский:
+      - привет
+      - добрый вечер
+      - доброе утро
+      - добрый день
+      - здравствуйте
+      - здравствуй
+  answers:
+    english:
+      - Hello, I am Wiki Bot, what's your name?
+      - Hi, My name is Wiki Bot, how about you?
+    русский:
+      - Привет, я Вики-Бот, а тебя как зовут?
+      - Привет, меня зовут Вики-Бот. Я Бот. А ты кто?
+  action: get_name
+  reactions:
+    english:
+      - What a nice name{}, I can search Wikipedia for you.
+      - What a lovely name{}! I would be happy to assist in searching Wikipedia for you.
+    русский:
+      - Какое прекрасное имя {}, я могу поискать для тебя что-нибудь в Википедии.
+      - Чудесное имя,{} я буду очень рад помочь тебе с поиском в Википедии.
+
+search:
+  synonyms:
+    english:
+      - search
+      - wiki
+      - please find
+      - find
+      - find for me
+    русский:
+      - ищи
+      - вики
+      - найди
+      - найди мне
+      - пожалуйста найди
+      - поиск
+  answers:
+    english:
+      - What should I search for you?
+      - What are you interested in?
+      - Which Wikipedia Article do you want?
+    русский:
+      - Информацию о чем тебе найти?
+      - Что тебя интересует?
+      - Какую статью в Википедии ты хочешь прочитать?
+  action: search_wiki
+  reactions:
+    english:
+      - "\nHope this was helpful."
+      - "\nThis looks line what you were searching for."
+    русский:
+      - "\nНадеюсь это было полезно."
+      - "\nВот, это похоже на то, что тебя интересовало."
+
+thanks:
+  synonyms:
+    english:
+      - thanks
+      - thank you
+      - thanks a lot
+      - thank you very much
+    русский:
+      - спасибо
+      - благодарю
+      - большое спасибо
+      - огромное спасибо
+  answers:
+    english:
+      - You're most welcome{}!
+      - Don't mention it!
+      - Always happy to assist.
+    русский:
+      - Не за что{}!
+      - Пожалуйста.
+      - Всегда рад помочь.
+
+time:
+  synonyms:
+    english:
+      - time
+      - what time is it
+      - how late is it
+      - what time is it now
+    русский:
+      - время
+      - который час
+      - сколько времени
+      - сколько сейчас времени
+      - время не подскажешь
+  action: print_time
+  reactions:
+    english:
+      - Why do you ask, are you in a hurry?
+      - I am late already...
+      - Time is irrelevant when it is about learing.
+    русский:
+      - Почему ты спрашиваешь, ты что, спешишь?
+      - Ах как опаздываю я, почти что на день целый...
+      - Время не имеет значения!
+
+exit:
+  synonyms:
+    english:
+      - buy
+      - goodbuy
+      - chiao
+      - exit
+      - quit
+    русский:
+      - пока
+      - до свидания
+      - счастливо
+      - чао
+      - выход
+      - хватит
+  answers:
+    english:
+      - Goodbye, talk to you later.
+      - Goodbye{}, and have a nice day.
+      - You are leaving? Why. We could do much more Wikipedia searches together.
+      - I am sad to see you leaving{}, but I am only a bot and you have your human staff to do.
+    русский:
+      - До свидания, до новых встреч.
+      - Всего хорошего{}, удачного тебе дня.
+      - Уже уходишь? Мы могли бы еще долго вместе читать Википедию.
+      - Жаль, что ты уходишь{}, но я понимаю, я ведь всего лишь бот, а у тебя много человеческих дел.
+  action: exit
+
+help:
+  synonyms:
+    english:
+      - help
+      - what can i ask
+      - what can i ask about
+      - what can you tell me
+      - what do you know
+      - what do you know about
+      - how can you help me
+    русский:
+      - помощь
+      - что можно спрашивать
+      - о чем можно спрашивать
+      - что спрашивать
+      - что ты знаешь
+      - о чем ты знаешь
+      - как ты можешь помочь
+      - чем ты можешь помочь
+  answers:
+    english:
+      - I do not know much myself, you can ask me about current time or to search something in wikipedia for you.
+      - I search in Wikipedia, just tell me what you are interested in
+      - "Commands I understand are: hello, search, thanks, time, bye, help and some synonyms"
+    русский:
+      - Я не так много пока умею, ты можешь спросить сколько времени или попросить что-то поискать в Википедии для тебя.
+      - Я умею искать в Википедии, просто скажи мне, что тебя интересует
+      - "Команды, которые я понимаю: привет, найди, время, спасибо, выход и некоторые их синонимы"
+
+english:
+  synonyms:
+    русский:
+      - перейди на английский
+      - давай по-английски
+      - английский
+      - говори по английски
+  action: language english
+  reactions:
+    english:
+      - Ok, let us speak english.
+      - Sure, I can speak english as well.
+      - Wow, you also can speak English, great!
+
+
+русский:
+  synonyms:
+    english:
+      - speak russian
+      - russian
+      - please russian
+      - switch to russian
+  action: language русский
+  reactions:
+    русский:
+      - Хорошо, давай по-русски.
+      - Не проблема, по-русски я тоже могу.
+      - О... ты тоже говоришь по-русски, здорово!
+
+
+

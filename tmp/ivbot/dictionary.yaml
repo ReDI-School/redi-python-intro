@@ -17,12 +17,15 @@ english:
 
   register:
     synonyms:
+      - registration
       - where do i need to register in germany
       - how can i register
       - what is the registration procedure
+      - where to register
     answers:
       - You need to go to Bürgeramt.
       - You need to go the Bürgeramt in your district
+      - This is easy, just go to the Bürgeramt, they will help you
 
   thanks:
     synonyms:
@@ -44,12 +47,6 @@ english:
       - I am late already...
       - Time is irrelevant.
 
-#  deutsch:
-#    answers:
-#      - Ok {}, lass uns Deutsch reden
-#      - Kein Problem, Deutsch kann ich auch!
-#    action: german
-
   bye:
     synonyms:
       - goodbuy
@@ -61,4 +58,24 @@ english:
       - Goodbye{}, and have a nice day
       - I am sad to see you leaving{}, but I am only a bot and you have your human staff to do.
     action: exit
+
+  help:
+    synonyms:
+      - what can i ask
+      - what can i ask about
+      - what can you tell me
+      - what do you know
+      - what do you know about
+      - how can you help me
+    answers:
+      - I do not know much, you can ask about registration in Germany, current time or just thank me
+      - Ask me about registration or time
+      - "Words I know how to react to are: hello, register, thanks, time, bye, help and some synonyms"
+#  deutsch:
+#    answers:
+#      - Ok {}, lass uns Deutsch reden
+#      - Kein Problem, Deutsch kann ich auch!
+#    action: german
+
+
 

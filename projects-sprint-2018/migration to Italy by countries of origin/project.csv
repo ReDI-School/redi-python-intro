@@ -1,0 +1,916 @@
+Reported Date,ISO3 of Origin,Cumulative arrivals,Cumulative arrivals male,Cumulative arrivals female,Cumulative arrivals AM,Cumulative arrivals UAM,ISO3 of Arrival,Source,Start_date_for_cumulative
+31/Jan/17,CIV,839,521,103,1,214,ITA,Italian authorities,1/Jan/17
+31/Jan/17,GIN,796,640,22,0,134,ITA,Italian authorities,1/Jan/17
+31/Jan/17,NGA,483,335,121,0,27,ITA,Italian authorities,1/Jan/17
+31/Jan/17,SEN,431,367,3,0,61,ITA,Italian authorities,1/Jan/17
+31/Jan/17,GMB,359,206,11,1,141,ITA,Italian authorities,1/Jan/17
+31/Jan/17,MLI,282,232,8,0,42,ITA,Italian authorities,1/Jan/17
+31/Jan/17,MAR,257,222,12,0,23,ITA,Italian authorities,1/Jan/17
+31/Jan/17,BGD,224,168,0,0,56,ITA,Italian authorities,1/Jan/17
+31/Jan/17,IRQ,131,71,17,14,29,ITA,Italian authorities,1/Jan/17
+31/Jan/17,CMR,117,82,22,0,13,ITA,Italian authorities,1/Jan/17
+31/Jan/17,OOO,548,454,30,6,58,ITA,Italian authorities,1/Jan/17
+28/Feb/17,GIN,2092,1641,72,20,359,ITA,Italian authorities,1/Jan/17
+28/Feb/17,NGA,1687,1033,527,6,121,ITA,Italian authorities,1/Jan/17
+28/Feb/17,CIV,1645,1087,213,25,320,ITA,Italian authorities,1/Jan/17
+28/Feb/17,BGD,1303,1110,2,15,176,ITA,Italian authorities,1/Jan/17
+28/Feb/17,GMB,1244,891,24,17,312,ITA,Italian authorities,1/Jan/17
+28/Feb/17,SEN,1215,1023,16,8,168,ITA,Italian authorities,1/Jan/17
+28/Feb/17,MAR,977,865,59,10,43,ITA,Italian authorities,1/Jan/17
+28/Feb/17,MLI,645,547,13,11,74,ITA,Italian authorities,1/Jan/17
+28/Feb/17,IRQ,275,133,46,14,82,ITA,Italian authorities,1/Jan/17
+28/Feb/17,PAK,271,259,3,2,7,ITA,Italian authorities,1/Jan/17
+28/Feb/17,OOO,2085,1635,205,32,213,ITA,Italian authorities,1/Jan/17
+31/Mar/17,GIN,3168,2469,98,22,579,ITA,Italian authorities,1/Jan/17
+31/Mar/17,NGA,3159,2028,915,13,203,ITA,Italian authorities,1/Jan/17
+31/Mar/17,BGD,2831,2325,2,15,489,ITA,Italian authorities,1/Jan/17
+31/Mar/17,CIV,2527,1694,323,34,476,ITA,Italian authorities,1/Jan/17
+31/Mar/17,GMB,2232,1617,33,17,565,ITA,Italian authorities,1/Jan/17
+31/Mar/17,SEN,1915,1614,24,8,269,ITA,Italian authorities,1/Jan/17
+31/Mar/17,MAR,1739,1530,116,11,82,ITA,Italian authorities,1/Jan/17
+31/Mar/17,MLI,1141,953,31,24,133,ITA,Italian authorities,1/Jan/17
+31/Mar/17,SOM,634,347,127,3,157,ITA,Italian authorities,1/Jan/17
+31/Mar/17,ERI,577,406,100,2,69,ITA,Italian authorities,1/Jan/17
+31/Mar/17,OOO,4369,3423,403,74,469,ITA,Italian authorities,1/Jan/17
+30/Apr/17,NGA,5253,3337,1582,24,310,ITA,Italian authorities,1/Jan/17
+30/Apr/17,BGD,4645,3813,11,26,795,ITA,Italian authorities,1/Jan/17
+30/Apr/17,GIN,4184,3248,126,32,778,ITA,Italian authorities,1/Jan/17
+30/Apr/17,CIV,3920,2668,499,63,690,ITA,Italian authorities,1/Jan/17
+30/Apr/17,GMB,2850,2101,64,19,666,ITA,Italian authorities,1/Jan/17
+30/Apr/17,SEN,2555,2182,35,9,329,ITA,Italian authorities,1/Jan/17
+30/Apr/17,MAR,2425,2142,154,23,106,ITA,Italian authorities,1/Jan/17
+30/Apr/17,MLI,1879,1560,47,25,247,ITA,Italian authorities,1/Jan/17
+30/Apr/17,ERI,1044,702,177,2,163,ITA,Italian authorities,1/Jan/17
+30/Apr/17,PAK,1026,942,20,2,62,ITA,Italian authorities,1/Jan/17
+30/Apr/17,OOO,7454,5361,855,194,1044,ITA,Italian authorities,1/Jan/17
+31/May/17,NGA,9286,5855,2800,32,599,ITA,Italian authorities,1/Jan/17
+31/May/17,BGD,7106,5881,25,30,1170,ITA,Italian authorities,1/Jan/17
+31/May/17,GIN,5960,4520,181,38,1221,ITA,Italian authorities,1/Jan/17
+31/May/17,CIV,5657,3865,731,81,980,ITA,Italian authorities,1/Jan/17
+31/May/17,GMB,4011,2931,81,19,980,ITA,Italian authorities,1/Jan/17
+31/May/17,SEN,3935,3389,46,9,491,ITA,Italian authorities,1/Jan/17
+31/May/17,MAR,3327,2890,227,42,168,ITA,Italian authorities,1/Jan/17
+31/May/17,MLI,3150,2590,102,27,431,ITA,Italian authorities,1/Jan/17
+31/May/17,ERI,2344,1518,434,54,338,ITA,Italian authorities,1/Jan/17
+31/May/17,SDN,2327,2128,23,17,159,ITA,Italian authorities,1/Jan/17
+31/May/17,OOO,13125,9536,1506,308,1775,ITA,Italian authorities,1/Jan/17
+30/Jun/17,NGA,14118,8950,4168,67,933,ITA,Italian authorities,1/Jan/17
+30/Jun/17,BGD,8241,6933,27,30,1251,ITA,Italian authorities,1/Jan/17
+30/Jun/17,GIN,7759,5968,243,44,1504,ITA,Italian authorities,1/Jan/17
+30/Jun/17,CIV,7354,5005,1030,85,1234,ITA,Italian authorities,1/Jan/17
+30/Jun/17,GMB,4920,3592,90,19,1219,ITA,Italian authorities,1/Jan/17
+30/Jun/17,SEN,4834,4180,47,11,596,ITA,Italian authorities,1/Jan/17
+30/Jun/17,MLI,4789,3965,144,29,651,ITA,Italian authorities,1/Jan/17
+30/Jun/17,ERI,4536,2734,887,55,860,ITA,Italian authorities,1/Jan/17
+30/Jun/17,MAR,4082,3506,305,44,227,ITA,Italian authorities,1/Jan/17
+30/Jun/17,SDN,3979,3641,49,28,261,ITA,Italian authorities,1/Jan/17
+30/Jun/17,OOO,19140,13826,2223,421,2670,ITA,Italian authorities,1/Jan/17
+31/Jul/17,NGA,16317,10265,4882,75,1095,ITA,Italian authorities,1/Jan/17
+31/Jul/17,BGD,8687,7338,27,30,1292,ITA,Italian authorities,1/Jan/17
+31/Jul/17,GIN,8631,6627,272,46,1686,ITA,Italian authorities,1/Jan/17
+31/Jul/17,CIV,7905,5396,1105,96,1308,ITA,Italian authorities,1/Jan/17
+31/Jul/17,MLI,5526,4604,157,29,736,ITA,Italian authorities,1/Jan/17
+31/Jul/17,GMB,5465,3997,118,20,1330,ITA,Italian authorities,1/Jan/17
+31/Jul/17,SEN,5366,4636,52,11,667,ITA,Italian authorities,1/Jan/17
+31/Jul/17,ERI,5325,3277,993,155,900,ITA,Italian authorities,1/Jan/17
+31/Jul/17,SDN,4882,4443,62,37,340,ITA,Italian authorities,1/Jan/17
+31/Jul/17,MAR,4632,3936,382,56,258,ITA,Italian authorities,1/Jan/17
+31/Jul/17,OOO,22477,16284,2619,530,3044,ITA,Italian authorities,1/Jan/17
+31/Aug/17,NGA,16622,10449,4977,80,1116,ITA,Italian authorities,1/Jan/17
+31/Aug/17,GIN,8857,6793,282,46,1736,ITA,Italian authorities,1/Jan/17
+31/Aug/17,BGD,8747,7393,27,30,1297,ITA,Italian authorities,1/Jan/17
+31/Aug/17,CIV,8263,5617,1166,99,1381,ITA,Italian authorities,1/Jan/17
+31/Aug/17,MLI,5953,4949,173,35,796,ITA,Italian authorities,1/Jan/17
+31/Aug/17,ERI,5601,3439,1043,155,964,ITA,Italian authorities,1/Jan/17
+31/Aug/17,GMB,5525,4050,118,20,1337,ITA,Italian authorities,1/Jan/17
+31/Aug/17,SEN,5505,4750,53,12,690,ITA,Italian authorities,1/Jan/17
+31/Aug/17,SDN,5065,4606,64,37,358,ITA,Italian authorities,1/Jan/17
+31/Aug/17,MAR,4777,4060,394,61,262,ITA,Italian authorities,1/Jan/17
+31/Aug/17,OOO,24212,17594,2777,551,3290,ITA,Italian authorities,1/Jan/17
+30/Sep/17,NGA,17100,10785,5087,83,1145,ITA,Italian authorities,1/Jan/17
+30/Sep/17,GIN,9217,7064,304,54,1795,ITA,Italian authorities,1/Jan/17
+30/Sep/17,BGD,8870,7511,27,30,1302,ITA,Italian authorities,1/Jan/17
+30/Sep/17,CIV,8753,5907,1263,109,1474,ITA,Italian authorities,1/Jan/17
+30/Sep/17,MLI,6461,5361,187,39,874,ITA,Italian authorities,1/Jan/17
+30/Sep/17,ERI,5711,4928,58,13,712,ITA,Italian authorities,1/Jan/17
+30/Sep/17,GMB,5649,4133,120,20,1376,ITA,Italian authorities,1/Jan/17
+30/Sep/17,SEN,5616,3451,1044,155,966,ITA,Italian authorities,1/Jan/17
+30/Sep/17,SDN,5569,5038,74,39,418,ITA,Italian authorities,1/Jan/17
+30/Sep/17,MAR,5193,4397,433,77,286,ITA,Italian authorities,1/Jan/17
+30/Sep/17,OOO,27270,20137,2964,653,3516,ITA,Italian authorities,1/Jan/17
+31/Oct/17,NGA,17462,10988,5204,83,1187,ITA,Italian authorities,1/Jan/17
+31/Oct/17,GIN,9361,7166,311,54,1830,ITA,Italian authorities,1/Jan/17
+31/Oct/17,CIV,8938,6019,1286,109,1524,ITA,Italian authorities,1/Jan/17
+31/Oct/17,BGD,8896,7536,27,30,1303,ITA,Italian authorities,1/Jan/17
+31/Oct/17,MLI,6740,5582,192,39,927,ITA,Italian authorities,1/Jan/17
+31/Oct/17,SDN,5852,5285,79,39,449,ITA,Italian authorities,1/Jan/17
+31/Oct/17,SEN,5786,4994,58,13,721,ITA,Italian authorities,1/Jan/17
+31/Oct/17,ERI,5739,3531,1063,155,990,ITA,Italian authorities,1/Jan/17
+31/Oct/17,GMB,5691,4162,120,20,1389,ITA,Italian authorities,1/Jan/17
+31/Oct/17,MAR,5513,4655,477,77,304,ITA,Italian authorities,1/Jan/17
+1/Nov/17,TUN,5433,4823,123,15,472,ITA,Italian authorities,1/Jan/17
+2/Nov/17,OOO,25986,18741,3031,713,3501,ITA,Italian authorities,1/Jan/17
+30/Nov/17,NGA,18049,11342,5399,88,1220,ITA,Italian authorities,1/Jan/17
+30/Nov/17,GIN,9604,7323,338,57,1886,ITA,Italian authorities,1/Jan/17
+30/Nov/17,CIV,9324,6221,1365,118,1620,ITA,Italian authorities,1/Jan/17
+30/Nov/17,BGD,8938,7571,28,30,1309,ITA,Italian authorities,1/Jan/17
+30/Nov/17,MLI,7046,5819,201,40,986,ITA,Italian authorities,1/Jan/17
+30/Nov/17,ERI,6836,4115,1333,188,1200,ITA,Italian authorities,1/Jan/17
+30/Nov/17,SDN,6125,5496,94,39,496,ITA,Italian authorities,1/Jan/17
+30/Nov/17,TUN,5971,5296,132,14,529,ITA,Italian authorities,1/Jan/17
+30/Nov/17,SEN,5916,5101,59,13,743,ITA,Italian authorities,1/Jan/17
+30/Nov/17,GMB,5774,4225,122,20,1407,ITA,Italian authorities,1/Jan/17
+30/Nov/17,MAR,5770,4859,519,77,315,ITA,Italian authorities,1/Jan/17
+30/Nov/17,OOO,27689,19814,3276,770,3829,ITA,Italian authorities,1/Jan/17
+31/Dec/17,NGA,18158,11417,5425,88,1228,ITA,Italian authorities,1/Jan/17
+31/Dec/17,GIN,9701,7387,353,57,1904,ITA,Italian authorities,1/Jan/17
+31/Dec/17,CIV,9507,6314,1423,124,1646,ITA,Italian authorities,1/Jan/17
+31/Dec/17,BGD,9009,7639,28,30,1312,ITA,Italian authorities,1/Jan/17
+31/Dec/17,MLI,7118,5871,209,45,993,ITA,Italian authorities,1/Jan/17
+31/Dec/17,ERI,7052,4265,1374,194,1219,ITA,Italian authorities,1/Jan/17
+31/Dec/17,SDN,6221,5579,96,41,505,ITA,Italian authorities,1/Jan/17
+31/Dec/17,TUN,6151,5455,135,17,544,ITA,Italian authorities,1/Jan/17
+31/Dec/17,MAR,6003,5024,555,99,325,ITA,Italian authorities,1/Jan/17
+31/Dec/17,SEN,6000,5172,61,14,753,ITA,Italian authorities,1/Jan/17
+31/Dec/17,GMB,5808,4249,122,20,1417,ITA,Italian authorities,1/Jan/17
+31/Dec/17,OOO,28641,20539,3340,829,3933,ITA,Italian authorities,1/Jan/17
+31/Jan/17,AFG,51,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,DZA,195,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,AGO,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,BGD,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,BEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,BDI,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,CMR,28,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,COL,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,COD,127,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,DOM,14,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,EGY,25,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,ERI,18,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,ETH,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,GMB,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,GHA,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,GIN,7,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,HTI,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,IRN,24,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,IRQ,97,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,CIV,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,JAM,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,JOR,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,KWT,74,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,LBN,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,LBR,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,LBY,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,MLI,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,MAR,29,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,NGA,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,PAK,66,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,PSE,58,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,SEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,SLE,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,LKA,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,SDN,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,SYR,353,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,TUN,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,TUR,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,YEM,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31/Jan/17,ZWE,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,AFG,99,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,DZA,238,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,AGO,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,BGD,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,BDI,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,CMR,46,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,COL,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,COD,235,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,DOM,26,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,EGY,38,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,ERI,47,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,ETH,26,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,GMB,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,GHA,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,GIN,18,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,HTI,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,IRN,42,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,IRQ,207,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,CIV,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,JAM,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,JOR,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,KWT,103,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,LBN,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,LBR,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,LBY,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,MLI,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,MAR,43,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,NGA,16,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,PAK,98,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,PSE,82,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,SEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,SLE,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,SOM,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,LKA,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,SDN,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,SYR,765,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,TUN,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,TUR,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,UGA,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,YEM,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+28/Feb/17,ZWE,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,AFG,228,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,DZA,276,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,AGO,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,BGD,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,BOL,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,BDI,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,CMR,106,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,COL,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,COD,299,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,DOM,37,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,EGY,68,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,ERI,65,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,ETH,59,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,GAB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,GMB,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,GHA,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,GIN,37,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,HTI,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,IND,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,IRN,78,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,IRQ,397,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,CIV,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,JAM,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,JOR,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,KWT,137,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,LBN,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,LBR,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,LBY,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,MLI,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,MAR,68,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,NGA,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,PAK,261,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,PSE,172,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,SEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,SLE,7,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,SOM,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,LKA,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,SDN,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,SYR,1453,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,TUN,24,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,TUR,23,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,UGA,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,YEM,21,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,ZWE,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Mar-17,OOO,30,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,SYR,1891,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,IRQ,560,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,COD,345,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,DZA,329,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,AFG,316,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,PAK,267,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,PSE,207,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,KWT,170,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,IRN,132,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,CMR,129,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,OOO,124,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,MAR,92,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,EGY,69,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,ERI,66,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,ETH,65,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,DOM,45,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,GIN,40,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,YEM,33,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,TUN,24,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,TUR,24,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,NGA,21,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,SDN,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,BGD,14,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,GHA,14,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,LKA,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,MLI,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,SOM,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,HTI,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,LBN,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,ZWE,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,SLE,7,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,CIV,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,LBY,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,UGA,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,JOR,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,COL,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,GMB,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,IND,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,AGO,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,BDI,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,JAM,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,LBR,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,NPL,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,SEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,BOL,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,BFA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,GAB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,SWZ,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Apr-17,TZA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,SYR,2587,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,IRQ,921,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,COD,522,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,AFG,442,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,DZA,439,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,PAK,404,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,PSE,249,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,OOO,236,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,CMR,189,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,IRN,184,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,KWT,181,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,MAR,135,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,ETH,95,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,EGY,94,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,ERI,85,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,YEM,59,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,GIN,50,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,DOM,47,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,NGA,27,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,TUN,27,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,SOM,26,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,SDN,25,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,TUR,25,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,GHA,20,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,MLI,18,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,LBN,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,LKA,16,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,BGD,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,CIV,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,HTI,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,ZWE,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,SLE,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,UGA,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,JOR,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,LBY,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,NPL,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,BDI,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,COL,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,GAB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,GMB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,IND,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,TCD,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,SEN,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,AGO,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,BFA,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,JAM,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,LBR,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,NER,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,BOL,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,COM,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,SWZ,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,TZA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-May-17,TGO,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,SYR,3368,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,IRQ,1228,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,COD,697,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,PAK,634,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,AFG,593,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,DZA,501,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,PSE,317,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,OOO,284,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,KWT,234,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,IRN,233,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,CMR,219,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,MAR,155,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,ETH,104,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,EGY,99,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,ERI,93,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,YEM,72,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,GIN,64,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,DOM,56,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,TUR,46,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,NGA,38,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,SDN,33,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,SOM,30,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,GHA,28,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,TUN,28,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,MLI,23,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,LKA,23,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,LBN,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,BGD,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,HTI,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,CIV,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,LBY,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,ZWE,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,SLE,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,UGA,7,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,SEN,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,GAB,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,JOR,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,NPL,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,ALB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,BFA,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,BDI,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,COL,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,GMB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,AGO,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,BOL,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,IND,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,LBR,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,TCD,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,JAM,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,NER,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,TGO,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,BRA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,COM,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,MRT,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,SWZ,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,TZA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Jun-17,VEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,SYR,4475,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,IRQ,1600,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,AFG,874,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,PAK,870,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,COD,735,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,DZA,550,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,PSE,351,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,OOO,322,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,IRN,272,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,KWT,264,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,CMR,242,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,MAR,192,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,EGY,127,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,ETH,115,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,ERI,100,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,YEM,73,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,GIN,68,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,DOM,64,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,TUR,51,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,SOM,50,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,NGA,41,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,SDN,38,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,TUN,34,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,GHA,31,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,MLI,24,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,LKA,24,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,LBN,20,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,BGD,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,CIV,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,LBY,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,HTI,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,SLE,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,ZWE,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,UGA,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,JOR,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,NPL,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,SEN,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,BOL,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,GAB,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,ALB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,BFA,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,BDI,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,COL,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,GMB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,AGO,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,IND,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,LBR,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,TCD,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,JAM,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,NER,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,TGO,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,BRA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,COM,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,MRT,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,SWZ,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,TZA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Jul-17,VEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,SYR,6091,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,IRQ,2642,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,AFG,1428,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,PAK,887,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,COD,756,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,DZA,571,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,PSE,399,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,IRN,364,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,OOO,349,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,KWT,300,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,CMR,284,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,MAR,220,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,EGY,163,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,ETH,125,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,ERI,106,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,YEM,99,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,GIN,77,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,TUR,73,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,DOM,69,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,SOM,64,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,NGA,49,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,SDN,45,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,TUN,36,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,GHA,35,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,MLI,28,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,LKA,24,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,LBN,20,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,BGD,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,CIV,14,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,LBY,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,HTI,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,LBR,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,JOR,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,SLE,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,SEN,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,ZWE,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,UGA,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,GMB,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,BFA,7,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,GAB,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,NPL,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,BOL,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,BDI,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,ALB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,COL,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,AGO,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,BIH,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,IND,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,MRT,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,TCD,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,COM,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,JAM,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,NER,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,TGO,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,ARG,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,BRA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,DJI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,IDN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,KEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,PRY,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,SAU,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,SWZ,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,TZA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Aug-17,VEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,SYR,8075,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,IRQ,3875,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,AFG,2112,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,PAK,953,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,COD,789,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,DZA,641,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,PSE,531,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,IRN,517,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,OOO,371,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,CMR,346,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,KWT,310,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,MAR,251,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,EGY,175,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,ETH,153,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,YEM,127,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,ERI,121,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,SOM,109,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,TUR,91,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,GIN,86,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,DOM,73,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,SDN,58,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,NGA,55,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,GHA,47,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,TUN,47,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,MLI,33,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,LBN,28,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,LKA,24,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,CIV,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,BGD,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,SEN,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,JOR,14,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,LBY,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,HTI,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,LBR,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,BFA,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,NPL,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,SLE,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,ZWE,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,TGO,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,UGA,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,BDI,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,GMB,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,GAB,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,BOL,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,COM,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,ALB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,AGO,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,COL,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,MRT,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,BIH,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,IND,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,TCD,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,SAU,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,JAM,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,NER,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,ARG,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,BRA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,DJI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,IDN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,KEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,PRY,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,SWZ,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,TZA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Sep-17,VEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,SYR,9908,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,IRQ,4742,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,AFG,2875,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,PAK,971,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,COD,806,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,DZA,724,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,IRN,585,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,PSE,582,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,CMR,389,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,OOO,388,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,KWT,383,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,MAR,289,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,ETH,189,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,EGY,182,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,SOM,169,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,YEM,149,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,ERI,141,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,TUR,113,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,GIN,95,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,DOM,73,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,SDN,72,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,NGA,56,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,TUN,54,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,GHA,51,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,LBN,50,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,MLI,36,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,LKA,24,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,CIV,22,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,BGD,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,JOR,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,LBY,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,SEN,16,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,HTI,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,NPL,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,SLE,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,BFA,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,LBR,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,TGO,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,BDI,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,GMB,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,UGA,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,ZWE,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,GAB,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,MRT,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,AGO,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,BOL,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,COM,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,ALB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,COL,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,SAU,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,BIH,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,IND,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,TCD,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,CAF,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,JAM,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,NER,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,ARG,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,BRA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,DJI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,IDN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,KEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,PRY,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,ESH,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,SWZ,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,TZA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Oct-17,VEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,SYR,11390,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,IRQ,5293,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,AFG,3216,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,PAK,977,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,COD,897,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,DZA,769,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,IRN,657,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,PSE,639,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,CMR,464,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,KWT,406,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,OOO,393,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,MAR,316,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,EGY,206,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,SOM,205,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,ETH,203,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,YEM,189,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,ERI,164,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,TUR,131,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,GIN,107,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,DOM,93,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,SDN,76,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,NGA,66,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,GHA,65,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,TUN,58,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,LBN,52,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,MLI,41,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,JOR,28,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,CIV,27,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,LKA,27,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,BFA,22,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,BGD,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,LBY,18,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,TGO,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,SEN,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,GMB,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,HTI,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,NPL,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,SLE,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,UGA,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,LBR,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,BDI,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,PRY,10,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,COL,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,COM,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,MRT,7,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,GAB,6,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,AGO,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,BEN,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,ALB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,SAU,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,PER,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,ESH,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,BEN,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,IND,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,PHL,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,CMR,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,CIV,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,NER,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,ISR,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,RWA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,AGO,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,BRA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,COM,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,COM,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,IND,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,KEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,PAN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,LKA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,TZA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+30-Nov-17,DOM,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,SYR,12311,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,IRQ,5818,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,AFG,3491,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,COD,1075,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,PAK,983,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,DZA,840,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,IRN,692,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,PSE,689,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,CMR,547,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,KWT,473,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,OOO,404,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,MAR,351,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,SOM,228,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,EGY,210,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,ETH,205,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,YEM,201,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,ERI,176,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,TUR,174,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,GIN,124,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,DOM,97,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,SDN,82,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,GHA,79,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,NGA,71,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,TUN,61,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,LBN,56,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,MLI,43,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,CIV,28,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,JOR,28,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,BFA,27,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,LKA,27,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,LBY,22,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,BGD,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,GMB,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,TGO,19,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,SEN,18,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,AZE,17,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,HTI,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,ZWE,15,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,NPL,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,SLE,13,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,LBR,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,UGA,12,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,BDI,11,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,COL,9,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,COM,8,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,AGO,7,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,GAB,7,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,MRT,7,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,BOL,5,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,ALB,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,SAU,4,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,BIH,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,CAF,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,IND,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,PER,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,ESH,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,TCD,3,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,BEN,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,JAM,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,NER,2,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,ARG,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,BRA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,CUB,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,DJI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,IDN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,ISR,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,KEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,MWI,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,PRY,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,RWA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,SWZ,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,TZA,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,VEN,1,,,,,GRC,Hellenic Coast Guard,1/Jan/17
+31-Dec-17,MAR,5498,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,DZA,5178,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,GIN,4014,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,CIV,3801,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,GMB,2750,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,SYR,2264,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,CMR,919,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,OOO,639,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,MLI,635,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,GNB,359,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,BFA,350,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,MRT,303,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,SEN,293,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,SLE,236,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,PSE,172,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,YEM,166,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,COD,162,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,COG,149,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,TUN,143,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,LBR,91,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,COM,76,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,GHA,58,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,TCD,57,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,LBN,51,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,BGD,42,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,TGO,33,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,NGA,31,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,CAF,24,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,LKA,24,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,ERI,23,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,GAB,21,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,BEN,20,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,IND,17,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,LBY,17,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,NER,13,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,KEN,12,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,PAK,12,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,SDN,9,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,SSD,6,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,AGO,4,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,GNQ,4,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,MMR,4,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,TZA,4,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,VEN,4,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,SOM,3,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,ZAF,3,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,UGA,3,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,AFG,2,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,EGY,2,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,ETH,2,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,BDI,1,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,PHL,1,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,IRQ,1,,,,,ESP,Ministerio del Interior,1/Jan/17
+31-Dec-17,MDG,1,,,,,ESP,Ministerio del Interior,1/Jan/17

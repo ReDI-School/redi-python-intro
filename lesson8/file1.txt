@@ -1,3 +1,0 @@
-    In any introductory programming course  the course usually starts by implementing 
-    a  hello world example  This allows you to run your first program and display hello
-    a welcome hello message to the user and in particular hello world

@@ -1,12 +1,13 @@
 import cv2
 
-path_to_images = './pictures'
-input_files=['beatles.jpg']
+PATH_TO_IMAGES = './pictures'
+PATH_TO_RESOURCES = './resources'
+INPUT_FILES = ['beatles.jpg']
 
-face_cascade_name = '/'.join((path_to_images, 'haarcascade_frontalface_default.xml'))
+face_cascade_name = '/'.join((PATH_TO_RESOURCES, 'haarcascade_frontalface_default.xml'))
 
-for file in input_files:
-    file_name = "/".join((path_to_images, file))
+for file in INPUT_FILES:
+    file_name = "/".join((PATH_TO_IMAGES, file))
     image = cv2.imread(file_name)
     result_image = image.copy()
 
@@ -22,19 +23,19 @@ for file in input_files:
     print("Processing file %s" % file)
 
     if len(faces) != 0:
-        face_number=0
+        face_number = 0
         for f in faces:
-            x, y, w, h = [ v for v in f ]
+            x, y, w, h = [v for v in f]
             if w > 100: #hack to get rid of false positives
                 face_number += 1
-                cv2.rectangle(image, (x,y), (x+w,y+h), (255,255,0), 5)
-                sub_face = image[y:y+h, x:x+w]
+                cv2.rectangle(image, (x, y), (x + w, y + h), (255, 255, 0), 5)
+                sub_face = image[y: y + h, x: x + w]
 
-                face_file_name = "%s/face_%s.jpg" % (path_to_images, face_number)
+                face_file_name = "%s/face_%s.jpg" % (PATH_TO_IMAGES, face_number)
                 cv2.imwrite(face_file_name, sub_face)
-                result_image[y:y+sub_face.shape[0], x:x+sub_face.shape[1]] = sub_face
+                result_image[y: y + sub_face.shape[0], x: x + sub_face.shape[1]] = sub_face
         print("%s faces detected" % face_number)
     else:
         print("no faces detected")
 
-    cv2.imwrite('%s/result_%s' % (path_to_images, file), result_image)
+    cv2.imwrite('%s/result_%s' % (PATH_TO_IMAGES, file), result_image)

@@ -1,4 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
+
+# Choose port 8081, for port 80, which is normally used for a http server, you need root access
+HTTP_PORT = 8081
  
 # HTTPRequestHandler class
 class testHTTPServer_RequestHandler(BaseHTTPRequestHandler):
@@ -22,8 +25,7 @@ def run():
   print('starting server...')
  
   # Server settings
-  # Choose port 8080, for port 80, which is normally used for a http server, you need root access
-  server_address = ('0.0.0.0', 8081)
+  server_address = ('0.0.0.0', HTTP_PORT)
   httpd = HTTPServer(server_address, testHTTPServer_RequestHandler)
   print('running server...')
   httpd.serve_forever()

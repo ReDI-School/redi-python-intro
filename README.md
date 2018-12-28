@@ -1,67 +1,25 @@
-## Basic material
+# Intro to Python
 
-### Lesson 1:
-1. What is a program
-2. Python as a calculator
-3. Operators & Precedence
-3. Variables
-4. Sequential programming (simple exercise)
+## Description
+These are supporting materials for the "Intro to Python" course made by 
+[ReDI School of Digital Integration](https://www.redi-school.org/berlin).\
+The course is developed for people who never heard of programming - all 
+the basic programming concepts are explained using Python3 as example.\
+The repository contains slides and small programming projects, some students\
+made in the past semesters on their own.   
 
-### Lesson 2:
-1. Sequential programming (followup and more advanced exercise)
-2. Conditional Operations
+## Structure
+* *motivating-examples* - short Python3 code examples to show capabilities of\
+Python3
+* *projects-ideas* - ideas for the end-of-semester students' projects
+* *students-projects* - end of semester students' projects
+* *theory* - class materials: slides, exercises, homeworks
 
-### Lesson 3:
-1. strings and string operations
-2. Iterative programming
-
-### Lesson 4:
-1. Conditional & Iterative Exercises
-
-### Lesson 5:
-1. Using Functions
-2. Writing Functions
-3. Structuring Files & importing
-
-### Lesson 6:
-1. Nested Lists
-
-### Lesson 7:
-1. Reading & Writing to Files
-
-### Lesson 8:
-1. More File Exercies
-2. Dictionaries, Sets, Tuples, etc.
-
-### Lesson 9:
-1. Exercises 
-
-### Lesson 10:
-1. Using libraries
-2. Structuring Files & importing
+## The repository is under development at the moment
+ 
+   
 
 
-## More advanced topics
-
-### Lesson 11:
-1. Libraries
-2. APIs 
-3. Frameworks
-4. Web programming intro
-
-### Lesson 12:
-1. Python Notebooks
-2. Data processing
-2. Visualizing
-3. Pre-processing & Data Manipulation
-4. Dashboard
-
-## Usage:
-
-* We have a folder per Lesson.
-* Each lesson has a notebook ipynb, which we can display as a slide show using command:
-jupyter nbconvert <ipynb file path> --to slides --post serve
-*  Optionally you can add code to python_examples folder per lesson
 
 
 

@@ -125,7 +125,7 @@ if __name__ == "__main__":
             pass
     else:
         printable_locations = ", ".join(locations[:-1]) + " and " + locations[-1]
-        print("We have {}s in the following locations: {}. Which location are you interested in?".format(category, locator, printable_locations))
+        print("We have {}s in the following locations: {}. Which location are you interested in?".format(category, printable_locations))
         user_locations = []
         while len(user_locations) != 1:
             user_input = input()
@@ -140,6 +140,7 @@ if __name__ == "__main__":
                 print("Your choice doesn't match. Pick one of {}.".format(printable_locations))
         location = user_locations[0]
 
+    # TODO: 
     # # DETAILS
     # # link or no link
     # # if no link, then more or goodbye

@@ -2,7 +2,7 @@
 
 ## Description
 IPython notebook generating an interactive map, where one can see, from which countries people were arriving to 
-Europe in 2017 and how they were dstributed by gender and age.
+Europe in 2017 and how they were distributed by gender and age.
 
 ![sample map image](./sample_map_image.png "Sample map image")
  

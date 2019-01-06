@@ -2,7 +2,8 @@
 
 ## Description
 Simple command-line bot program with the list of predefined user commands and answers stored in .txt file.\
-The bot supports two languages and addressing a user by their name.
+The bot supports two languages, addressing a user by their name and several synonymous answers to the same 
+question (chosen randomly for each question). 
    
 ## Usage
 The bot understands the following commands: 

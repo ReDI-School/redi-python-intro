@@ -28,4 +28,4 @@ Run jupyter
 ```bash
 jupyter notebook
 ```
-And open in browser (should start automatically) file bubbles.ipunb
+And open in browser (should start automatically) file bubbles.ipynb

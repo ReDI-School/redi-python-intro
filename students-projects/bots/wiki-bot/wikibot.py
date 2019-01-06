@@ -62,7 +62,7 @@ class wiki_bot:
 
 
 def main():
-    bot = wiki_bot('./wiki_dict.yaml')
+    bot = wiki_bot('./dictionarys.yaml')
     while True:
         user_input = input('->')
         bot.process_user_input(user_input)

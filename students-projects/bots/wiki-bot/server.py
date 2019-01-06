@@ -1,4 +1,4 @@
-import wiki_bot
+import wikibot
 from flask import Flask, request
 from flask_script import Manager
 
@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def run_wiki_bot():
-    bot = wiki_bot.wiki_bot('./wiki_dict.yaml')
+    bot = wikibot.wiki_bot('./dictionary.yaml')
     while True:
         user_input = request.args.get('user')
         bot.process_user_input(user_input)

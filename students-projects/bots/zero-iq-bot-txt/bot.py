@@ -46,7 +46,7 @@ def get_answer(question):
 fill_dict(FILENAME)
 
 while not is_leaving:
-    user_input = raw_input('->').lower().rstrip()
+    user_input = input('->').lower().rstrip()
 
     if is_waiting_for_name:
         username = user_input

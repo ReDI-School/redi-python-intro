@@ -10,6 +10,14 @@ Slides for the "Intro to Python" course made by
 * Topic 3
 ...
 
+## Structure
+* Topic*
+* cmake
+* remark.js
+* Example
+* CMakeLists.txt
+* resources
+
 
 ## Prerequisites
 * [Python3](https://www.python.org/downloads/) - to insert python code into slides before
@@ -60,8 +68,10 @@ Useful resources:
 ## The repository is under development at the moment
 ### TODO next
 * Add all contents of the old PowerPoint slides here as markdown files and resources
+* Fix the style
 * Complete this readme file
 * Publish generated HTMLs
+* Add "Handouts generation": html or pdfs with code used
 * Try to get rid of Python3 dependency for the build-system (implement code substitution in CMake)
 
 

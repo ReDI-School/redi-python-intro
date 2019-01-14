@@ -5,55 +5,43 @@ class: title-slide
 ## ReDI School of Digital Integration
 
 .left-column[
+.center[
 ![redi-logo](img/redi-logo.png)
-]
+]]
+
 .right-column[
+.left[
 ![python-logo](img/python-logo.png)
-]
+]]
 
 ---
 
-# Recap: your first program
-.left-column[
-.normal-code[
-```python
-# This is my first program
-# in Python
-# source: code/hello.py
+class: title-slide
 
-print('hello world!')
-```
-]
-]
-.right-column[
-- Can't react to user's; actions
-- Contains only instructions, doesn’t store data
-]
-.center[
-![program](img/program.png)
-]
+# Who are we?
 
 ---
 
-# Recap: your second program
-.left-column[
-.normal-code[
-```python
-# This is my first program
-# in Python
-# source: code/two-instructions.py
+class: title-slide
 
-print('hello world!')
-print("My name is Denis")
+# Who are you?
 
-```
-]
-]
-.right-column[
-- Can't react to user's; actions
-- Contains only instructions, doesn’t store data
-]
-.center[
-![program](img/program.png)
-]
+## (Time to introduce yourself)
+
+---
+
+# What is this course about?
+
+## What will you learn?
+* Basic programming concepts
+  * Same for many modern programming languages (Python, Java, C++, PHP, Javascript etc.)
+  * Words like: loop, variable, function, parameter, library etc.
+* Programming skills
+  * Problem analysis
+  * Problem decomposition
+  * Design and implementation
+  * Testing and debugging
+* Python syntax
+  * Essential subset of Python3 features
+
 

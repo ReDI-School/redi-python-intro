@@ -12,8 +12,8 @@ add_remark_slides(topic-1-slides ALL
 
 # Set a list of python files used in slides
 set(python_files
-        python/two-instructions.py
-        python/hello.py)
+        ${CMAKE_CURRENT_SOURCE_DIR}/python/two-instructions.py
+        ${CMAKE_CURRENT_SOURCE_DIR}/python/hello.py)
 
 # Set a task to put python code in slides before building the slides
-replace_by_file_contents(topic-1-slides slides.md.in slides.md "${python_files}")
+replace_by_file_contents(topic-1-slides ${CMAKE_CURRENT_SOURCE_DIR}/slides.md.in ${CMAKE_CURRENT_SOURCE_DIR}/slides.md "${python_files}")

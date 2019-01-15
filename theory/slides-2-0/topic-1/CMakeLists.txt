@@ -8,6 +8,15 @@ add_remark_slides(topic-1-slides ALL
     RESOURCES
         img/redi-logo.png
         img/python-logo.png
+        img/coding-fire-big.gif
+        img/studying-girl.jpg
+        img/projects-examples.png
+        img/program.png
+        img/bicycle.png
+        img/curious.png
+        img/interpreter.png
+        img/python-success.png
+        img/download-python.png
 )
 
 # Set a list of python files used in slides

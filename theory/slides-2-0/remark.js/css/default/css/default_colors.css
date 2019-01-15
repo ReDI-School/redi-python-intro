@@ -4,9 +4,11 @@
   --color-Green: rgb(134, 244, 66);
   --color-DarkGreen: rgb(73, 136, 0);
   --color-Pink: rgb(249, 38, 114);
+  --color-DeepSkyBlue: rgb(0, 191, 255);
 
   --color-ThemeMain: var(--color-Pink);
   --color-Text: var(--color-Graphite);
   --color-FooterText: var(--color-Graphite);
   --color-Info: var(--color-DarkGreen);
+  --color-Link: var(--color-DeepSkyBlue)
 }

@@ -75,7 +75,7 @@ ol > li {
   line-height: 2em;
 }
 a {
-  color: var(--color-ThemeMain);
+  color: var(--color-Link);
   text-decoration: none;
 }
 a:hover {
@@ -323,4 +323,16 @@ img {
   top: 0;
   left: 0;
   z-index: 10000;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.bottom-right-fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px
 }

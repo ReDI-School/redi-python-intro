@@ -1,6 +1,6 @@
-# This is my first program
-# in Python
-# source: code/two-instructions.py
+# This is my first multi-instruction
+#  program in Python: It prints two
+# lines to the console output
 
-print('hello world!')
+print('Hello world!')
 print("My name is Denis")

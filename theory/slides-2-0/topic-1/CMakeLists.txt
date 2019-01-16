@@ -17,6 +17,11 @@ add_remark_slides(topic-1-slides ALL
         img/interpreter.png
         img/python-success.png
         img/download-python.png
+        img/pycharm-welcome.png
+        img/pycharm-create-project.png
+        img/pycharm-create-file.png
+        img/pycharm-file-name.png
+        img/pycharm-select-project.png
 )
 
 # Set a list of python files used in slides

@@ -446,14 +446,14 @@ NameError: name 'Print' is not defined
 Process finished with exit code 1
 ```
 If you can’t understand it right away, usually it’s enough to search for the text of an error:
-[GO!](https://duckduckgo.com/?q=python3+NameError%3A+name+%27prin%27+is+not+defined&t=canonical&ia=web)
+[GO!](https://duckduckgo.com/?q=python3+NameError%3A+name+%27Print%27+is+not+defined&t=canonical&ia=web)
 
 ---
 
 # Multi-instruction program
 
 ```python
-# This is my first multi-nstruction
+# This is my first multi-instruction
 #  program in Python: It prints two
 # lines to the console output
 

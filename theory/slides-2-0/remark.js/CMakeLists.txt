@@ -27,6 +27,7 @@ add_remark_engine(default_engine
         favicon.ico
         scripts/jquery.min.js
         scripts/laser_ptr.js
+        img/redi-logo-header.jpeg
 )
 
 add_subdirectory(css)

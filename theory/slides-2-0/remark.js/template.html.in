@@ -10,26 +10,33 @@
 		</style>
 	</head>
 <body>
-		<textarea id="source">
+<textarea id="source">
+layout: true
+<div class="redi-header"><img src="img/redi-logo-header.jpeg" /></div>
+<div class="redi-footer"><p>&copy; 2019 ReDI School of Digital Integration.</p></div>
+
+
+---
+
 @REMARK_CONTENT@
-		</textarea>
-		<script src="scripts/remark-latest.min.js"></script>
-		<script>
-			var hljs = remark.highlighter.engine;
-		</script>
-		@REMARK_LANGUAGES@
-		@REMARK_SCRIPT@
-		<script>
-			var slideshow = remark.create({
-				ratio: '16:9',
-				countIncrementalSlides: false,
-				highlightLanguage: 'python',
-				highlightStyle: 'default',
-				highlightLines: true,
-				highlightSpans: true,
-				slideNumberFormat: '%current%'
-			});
-		</script>
-		<script src="scripts/laser_ptr.js"></script>
-	</body>
+</textarea>
+<script src="scripts/remark-latest.min.js"></script>
+<script>
+    var hljs = remark.highlighter.engine;
+</script>
+@REMARK_LANGUAGES@
+@REMARK_SCRIPT@
+<script>
+    var slideshow = remark.create({
+        ratio: '16:9',
+        countIncrementalSlides: false,
+        highlightLanguage: 'python',
+        highlightStyle: 'default',
+        highlightLines: true,
+        highlightSpans: true,
+        slideNumberFormat: '%current% of %total%'
+    });
+</script>
+<script src="scripts/laser_ptr.js"></script>
+</body>
 </html>

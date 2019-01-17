@@ -145,7 +145,7 @@ img {
 .remark-slide-number {
   position: fixed;
   color: var(--color-FooterText);
-  font-size: 0.65em;
+  font-size: 0.5em;
   right: 50px;
 }
 
@@ -333,6 +333,31 @@ img {
 
 .bottom-right-fixed {
     position: fixed;
-    bottom: 0px;
+    bottom: 50px;
     right: 0px
+}
+
+div.redi-footer {
+    background-color: var(--color-FooterBackground);
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+}
+
+div.redi-footer p {
+    text-align: center;
+    font-size: 0.5em;
+    color: var(--color-FooterText);
+    font-weight: normal;
+    width: 100%;
+    position: absolute;
+    bottom: 12px
+}
+
+div.redi-header img {
+	top: 0px;
+	right: 0px;
+	position: fixed;
 }

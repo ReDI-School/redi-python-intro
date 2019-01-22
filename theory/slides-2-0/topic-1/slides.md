@@ -1,32 +1,28 @@
 class: title-slide
 
+.title-slide-container[
 # Introduction to programming with Python
 
 ## ReDI School of Digital Integration
-
-.left-column[
-.center[
-![redi-logo](img/redi-logo.png)
-]]
-
-.right-column[
-.left[
-![python-logo](img/python-logo.png)
-]]
+]
 
 ---
 
 class: title-slide
 
+.title-slide-container[
 # Who are we?
+]
 
 ---
 
 class: title-slide
 
+.title-slide-container[
 # Who are you?
 
 ## (Time to introduce yourself)
+]
 
 ---
 
@@ -197,6 +193,10 @@ You have distance (S) and time (t), how to calculate the average speed?
 
 # Why Python?
 
+.bottom-right[
+![python-logo](img/python-logo.png)
+]
+
 * 1994: Version 1
   * Not young (But is actively developed)
   * Mature
@@ -355,10 +355,6 @@ sudo snap install pycharm-community --classic
 * Type the following code in your file
 
 ```python
-# This is my first program in Python
-# It prints the line 'Hello world' to
-# the console output
-
 print('Hello world!')
 ```
 
@@ -418,7 +414,7 @@ print('Hello world!')
 --
 
 * Comments:
-  * Ignored by interpreter
+  * Ignored by the interpreter
   * Write it for yourself or for somebody else who is supposed to read your code in future
   * You can use it to disable lines of code in your program without deleting them
 
@@ -445,6 +441,9 @@ NameError: name 'Print' is not defined
 
 Process finished with exit code 1
 ```
+
+--
+
 If you can’t understand it right away, usually it’s enough to search for the text of an error:
 [GO!](https://duckduckgo.com/?q=python3+NameError%3A+name+%27Print%27+is+not+defined&t=canonical&ia=web)
 
@@ -454,7 +453,7 @@ If you can’t understand it right away, usually it’s enough to search for the
 
 ```python
 # This is my first multi-instruction
-#  program in Python: It prints two
+# program in Python: It prints two
 # lines to the console output
 
 print('Hello world!')
@@ -463,7 +462,7 @@ print("My name is Denis")
 ```
 --
 
-* Only one instruction per line
+* Only one *instruction* per line
 * Empty lines are allowed
 * Instructions are executed one after another
 * Look at the quotes (both ways work with string literals)

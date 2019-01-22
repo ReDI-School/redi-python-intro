@@ -6,7 +6,6 @@ add_remark_slides(topic-1-slides ALL
     STYLE_TEMPLATE style.css.in
     MARKDOWN_SLIDES slides.md
     RESOURCES
-        img/redi-logo.png
         img/python-logo.png
         img/coding-fire-big.gif
         img/studying-girl.jpg

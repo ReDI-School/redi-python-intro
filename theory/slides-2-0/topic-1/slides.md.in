@@ -1,32 +1,28 @@
 class: title-slide
 
+.title-slide-container[
 # Introduction to programming with Python
 
 ## ReDI School of Digital Integration
-
-.left-column[
-.center[
-![redi-logo](img/redi-logo.png)
-]]
-
-.right-column[
-.left[
-![python-logo](img/python-logo.png)
-]]
+]
 
 ---
 
 class: title-slide
 
+.title-slide-container[
 # Who are we?
+]
 
 ---
 
 class: title-slide
 
+.title-slide-container[
 # Who are you?
 
 ## (Time to introduce yourself)
+]
 
 ---
 
@@ -196,6 +192,10 @@ You have distance (S) and time (t), how to calculate the average speed?
 ---
 
 # Why Python?
+
+.bottom-right[
+![python-logo](img/python-logo.png)
+]
 
 * 1994: Version 1
   * Not young (But is actively developed)

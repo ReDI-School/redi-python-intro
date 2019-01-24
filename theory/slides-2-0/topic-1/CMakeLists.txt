@@ -2,8 +2,7 @@
 add_remark_slides(topic-1-slides ALL
     NAME "intro-to-python-introduction"
     TITLE "Intro to Python: Introduction"
-    STYLE remark-style-default
-    STYLE_TEMPLATE style.css.in
+    STYLE redi-style
     MARKDOWN_SLIDES slides.md
     RESOURCES
         img/python-logo.png

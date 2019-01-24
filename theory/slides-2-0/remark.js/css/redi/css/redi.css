@@ -1,0 +1,153 @@
+@import url("remark.css");
+
+:root {
+    --color-White: rgb(255, 255, 255);
+    --color-Graphite: rgb(70, 69, 71);
+    --color-Green: rgb(134, 244, 66);
+    --color-DarkGreen: rgb(73, 136, 0);
+    --color-Pink: rgb(249, 38, 114);
+    --color-RediBlue: rgb(88, 172, 196);
+
+    --color-ThemeMain: var(--color-Pink);
+    --color-Text: var(--color-Graphite);
+    --color-FooterText: var(--color-White);
+    --color-FooterBackground: var(--color-RediBlue);
+    --color-Info: var(--color-DarkGreen);
+    --color-Link: var(--color-DeepSkyBlue);
+}
+
+/* default HTML styles */
+h1, h2, h3 {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1em;
+  color: rgb(113,112,112);
+}
+h1 code {
+  font-size: 1em;
+}
+p {
+  line-height: 1.3em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.7em;
+}
+ul ul {
+  line-height: 1.5em;
+}
+ul ul ul {
+  line-height: 1.3em;
+}
+li::before {
+  padding-right: 9px;
+}
+ul > li {
+  padding-left: 1em;
+  text-indent: -.85em;
+}
+ul > li:before {
+  content: "•";
+  color: var(--color-ThemeMain);
+}
+ul ul > li:before {
+  content: "–";
+  color: var(--color-Text);
+}
+ul ul ul > li:before {
+  content: "•";
+  color: var(--color-Text);
+}
+ul > li > p {
+    display: initial;
+}
+ol > li {
+  line-height: 2em;
+}
+a {
+  color: var(--color-Link);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+pre {
+  margin: 0.75em 0px;
+}
+
+img {
+  display: block;
+  max-width:1100px;
+  max-height:471px;
+  width: auto;
+  height: auto;
+  margin: 15px;
+}
+
+/* title slide */
+.title-slide-container {
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.title-slide-container h1, .title-slide-container h2 {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1em;
+    width: auto;
+    height: auto;
+}
+
+.title-slide-container h1 {
+  font-size: 3em;
+  box-shadow: none;
+}
+.title-slide-container h2 {
+  font-size: 1.5em;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.bottom-right-fixed {
+    position: fixed;
+    bottom: 50px;
+    right: 0px
+}
+
+div.redi-footer {
+    background-color: var(--color-FooterBackground);
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+}
+
+div.redi-footer p {
+    text-align: center;
+    font-size: 0.5em;
+    color: var(--color-FooterText);
+    font-weight: normal;
+    width: 100%;
+    position: absolute;
+    bottom: 12px
+}
+
+div.redi-header img {
+	top: 0px;
+	right: 0px;
+	position: fixed;
+}

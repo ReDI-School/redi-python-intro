@@ -1,3 +1,9 @@
+:root {
+  --color-White: rgb(255, 255, 255);
+  --color-Info: rgb(73, 136, 0);
+
+}
+
 @page {
   size: 1211px 681px;
   margin: 0;
@@ -56,6 +62,7 @@ em {
 .remark-slide-content h1 {
   position: fixed;
   display: -webkit-inline-box;
+  color: var(--color-Header);
   margin: 0px;
   padding: 0px 40px 0px 40px;
   top: 0px;

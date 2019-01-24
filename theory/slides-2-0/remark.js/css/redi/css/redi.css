@@ -1,19 +1,15 @@
 @import url("remark.css");
 
 :root {
-    --color-White: rgb(255, 255, 255);
-    --color-Graphite: rgb(70, 69, 71);
-    --color-Green: rgb(134, 244, 66);
-    --color-DarkGreen: rgb(73, 136, 0);
-    --color-Pink: rgb(249, 38, 114);
+    --color-DarkGrey: rgb(70, 69, 71);
+    --color-RediOrange: rgb(233, 92, 38);
     --color-RediBlue: rgb(88, 172, 196);
-
-    --color-ThemeMain: var(--color-Pink);
-    --color-Text: var(--color-Graphite);
-    --color-FooterText: var(--color-White);
-    --color-FooterBackground: var(--color-RediBlue);
-    --color-Info: var(--color-DarkGreen);
-    --color-Link: var(--color-DeepSkyBlue);
+    --color-Bullets: var(--color-RediOrange);
+    --color-Header: var(--color-DarkGrey);
+    --color-Text: rgb(113,112,112);
+    --color-FooterText: rgb(255, 255, 255);
+    --color-FooterBackground: rgb(88, 172, 196);
+    --color-Link: var(--color-RediOrange);
 }
 
 /* default HTML styles */
@@ -21,7 +17,6 @@ h1, h2, h3 {
   font-family: sans-serif;
   font-weight: 400;
   line-height: 1em;
-  color: rgb(113,112,112);
 }
 h1 code {
   font-size: 1em;
@@ -52,7 +47,7 @@ ul > li {
 }
 ul > li:before {
   content: "•";
-  color: var(--color-ThemeMain);
+  color: var(--color-Bullets);
 }
 ul ul > li:before {
   content: "–";
@@ -97,6 +92,7 @@ img {
     padding-right: 10%;
 
 }
+
 .title-slide-container h1, .title-slide-container h2 {
     display: block;
     position: relative;

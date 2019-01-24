@@ -1,7 +1,7 @@
 class: title-slide
 
 .title-slide-container[
-# Introduction to programming with Python
+# Introduction to Python
 
 ## ReDI School of Digital Integration
 ]

@@ -11,3 +11,4 @@ add_subdirectory(remark.js)
 
 # presentation definitions
 add_subdirectory("topic-1-introduction")
+add_subdirectory("topic-2-interactive-programs")

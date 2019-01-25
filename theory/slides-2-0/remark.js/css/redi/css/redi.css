@@ -147,3 +147,15 @@ div.redi-header img {
 	right: 0px;
 	position: fixed;
 }
+
+.bottom-interval{
+    margin-bottom: 2em;
+}
+
+.red{
+    color: red
+}
+
+.green{
+    color: green
+}

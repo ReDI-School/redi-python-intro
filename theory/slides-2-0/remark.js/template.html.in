@@ -31,7 +31,7 @@ layout: true
         ratio: '16:9',
         countIncrementalSlides: false,
         highlightLanguage: 'python',
-        highlightStyle: 'default',
+        highlightStyle: 'solarized-light',
         highlightLines: true,
         highlightSpans: true,
         slideNumberFormat: '%current% of %total%'

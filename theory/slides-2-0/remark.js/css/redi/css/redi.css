@@ -65,10 +65,6 @@ ol > li {
 }
 a {
   color: var(--color-Link);
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
 }
 
 pre {
@@ -140,6 +136,10 @@ div.redi-footer p {
     width: 100%;
     position: absolute;
     bottom: 12px
+}
+
+.remark-slide-content {
+    padding-right: 80px
 }
 
 div.redi-header img {

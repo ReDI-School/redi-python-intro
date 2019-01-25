@@ -49,7 +49,7 @@ class: title-slide
 
 # What is this course about?
 
-.right-column[
+.right[
 ![studying-girl](img/studying-girl.jpg)
 ]
 
@@ -462,7 +462,7 @@ print("My name is Denis")
 ```
 --
 
-* Only one *instruction* per line
+* Only one _instruction_ per line
 * Empty lines are allowed
 * Instructions are executed one after another
 * Look at the quotes (both ways work with string literals)

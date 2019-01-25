@@ -49,7 +49,7 @@ class: title-slide
 
 # What is this course about?
 
-.right-column[
+.right[
 ![studying-girl](img/studying-girl.jpg)
 ]
 
@@ -448,7 +448,7 @@ _PLEASE_REPLACE_BY_FILE_CONTENTS:python/two-instructions.py
 ```
 --
 
-* Only one *instruction* per line
+* Only one _instruction_ per line
 * Empty lines are allowed
 * Instructions are executed one after another
 * Look at the quotes (both ways work with string literals)

@@ -27,9 +27,6 @@
 strong {
   font-weight: bold;
 }
-em {
-  font-weight: bold;
-}
 
 .center img {
     margin-left: auto;
@@ -37,7 +34,7 @@ em {
   }
 .right img {
   float: right;
-  margin: 10px 0px 10px 50px;
+  margin: 10px 0px 10px 10px;
 }
 
 /* default remark slide style */
@@ -48,7 +45,7 @@ em {
 }
 .remark-slide-content {
   font-family:sans-serif;
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: var(--color-Text);
   display: block;
   position: relative;
@@ -70,10 +67,10 @@ em {
   height: 100px;
   width: 1130px;
   -webkit-box-align: center;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 .remark-slide-content h2, .remark-slide-content h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .remark-slide-number {
   position: fixed;

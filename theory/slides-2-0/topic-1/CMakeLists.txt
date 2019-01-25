@@ -1,5 +1,5 @@
 # Add slides as target
-add_remark_slides(topic-1-slides ALL
+add_remark_slides(topic-1-slides ALL HANDOUTS
     NAME "intro-to-python-introduction"
     TITLE "Intro to Python: Introduction"
     STYLE redi-style

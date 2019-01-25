@@ -55,6 +55,13 @@ Therefore the slides, containing Python code, may be described in file "slides.m
 then the file "slides.md" is generated after Python code substitution and the latter file
 is used by remark.js to generate the resulting HTML page.
 
+# Handouts generation
+Handouts html is generated automatically near the slides html (called handouts.html).\
+Handouts excludes animated slides (they are put in the same slide) and slides which are marked explicitly
+to be excluded from the handouts (see [remark-cmake documentation]((https://train-it-eu.github.io/remark-cmake/Slides_about_CMake_with_CMake/Slides_about_CMake_with_CMake.html#1))
+for more details).\
+Handouts can be converted to pdf either with browser, or with [ecktape](https://github.com/astefanutti/decktape).
+
 Useful resources:
 * [Markdown syntax](https://daringfireball.net/projects/markdown/syntax)
 * [Quick introduction to remark.js](https://remarkjs.com/#1)
@@ -68,10 +75,9 @@ Useful resources:
 ## The repository is under development at the moment
 ### TODO next
 * Add all contents of the old PowerPoint slides here as markdown files and resources
-* Fix the style
 * Complete this readme file
 * Publish generated HTMLs
-* Add "Handouts generation": html or pdfs with code used
+* Add html and pdf handouts generation as cmake targets
 * Try to get rid of Python3 dependency for the build-system (implement code substitution in CMake)
 
 

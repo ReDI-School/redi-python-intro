@@ -10,4 +10,4 @@ include(replace-by-file-contents)
 add_subdirectory(remark.js)
 
 # presentation definitions
-add_subdirectory("topic-1")
+add_subdirectory("topic-1-introduction")

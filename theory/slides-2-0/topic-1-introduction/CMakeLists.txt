@@ -1,6 +1,6 @@
 # Add slides as target
 add_remark_slides(topic-1-slides ALL HANDOUTS
-    NAME "intro-to-python-introduction"
+    NAME "topic-1-introduction"
     TITLE "Intro to Python: Introduction"
     STYLE redi-style
     MARKDOWN_SLIDES slides.md
